@@ -1,9 +1,9 @@
-﻿Log file open, 07/25/16 13:31:50
+﻿Log file open, 07/25/16 15:23:22
 LogInit:Display: Running engine for game: Uptime
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1498807043) SRandInit(1498807044).
+LogInit:Display: RandInit(-374911442) SRandInit(-374911440).
 LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-LogStats: Stats thread started at 0.067726
+LogStats: Stats thread started at 0.073755
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,289 +29,1046 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.07.25-03.31.50:936][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.25-03.31.50:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.07.25-03.31.50:948][  0]LogInit: Computer: RISUKUN-PC
-[2016.07.25-03.31.50:948][  0]LogInit: User: Risukun
-[2016.07.25-03.31.50:948][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.07.25-03.31.50:948][  0]LogInit: High frequency timer resolution =2.929359 MHz
-[2016.07.25-03.31.50:948][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
-[2016.07.25-03.31.50:948][  0]LogMemory: Platform Memory Stats for Windows
-[2016.07.25-03.31.50:948][  0]LogMemory: Process Physical Memory: 312.13 MB used, 312.13 MB peak
-[2016.07.25-03.31.50:948][  0]LogMemory: Process Virtual Memory: 315.41 MB used, 315.41 MB peak
-[2016.07.25-03.31.50:948][  0]LogMemory: Physical Memory: 2648.07 MB used, 4094.49 MB total
-[2016.07.25-03.31.50:948][  0]LogMemory: Virtual Memory: 651.86 MB used, 134217728.00 MB total
-[2016.07.25-03.31.50:997][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.07.25-03.31.51:643][  0]LogD3D11RHI: D3D11 adapters:
-[2016.07.25-03.31.51:672][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 9600 GT' (Feature Level 10_0)
-[2016.07.25-03.31.51:672][  0]LogD3D11RHI:       999MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
-[2016.07.25-03.31.51:676][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.07.25-03.31.51:676][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
-[2016.07.25-03.31.51:676][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.07.25-03.31.51:688][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.07.25-03.31.51:688][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 9600 GT
-[2016.07.25-03.31.51:688][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.07.25-03.31.51:688][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.07.25-03.31.51:688][  0]LogRHI: Texture pool is 699 MB (70% of 999 MB)
-[2016.07.25-03.31.51:702][  0]LogD3D11RHI: Async texture creation enabled
-[2016.07.25-03.31.51:721][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/Risukun/Documents/GitHub/Uptime/Intermediate/Shaders/WorkingDirectory/26308/).
-[2016.07.25-03.31.51:721][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Risukun/AppData/Local/Temp/UnrealShaderWorkingDir/A2534C9F40E4232F6C978F86A35F155A/'.
-[2016.07.25-03.31.51:721][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.07.25-03.31.53:787][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.07.25-03.31.53:795][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.07.25-03.31.53:803][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.07.25-03.31.53:813][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.07.25-03.31.53:820][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.07.25-03.31.53:826][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.07.25-03.31.53:832][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.07.25-03.31.53:837][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.07.25-03.31.53:843][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.07.25-03.31.53:849][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.07.25-03.31.53:854][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.07.25-03.31.53:865][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.07.25-03.31.53:865][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.07.25-03.31.53:866][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.07.25-03.31.53:887][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.07.25-03.31.53:892][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.07.25-03.31.53:898][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.07.25-03.31.53:903][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.07.25-03.31.53:909][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.07.25-03.31.53:909][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.07.25-03.31.54:016][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.07.25-03.31.54:308][  0]LogDerivedDataCache: Loaded boot cache 0.29s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.25-03.31.54:308][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.07.25-03.31.54:308][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.07.25-03.31.54:308][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.07.25-03.31.54:308][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.07.25-03.31.54:308][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.07.25-03.31.54:346][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.07.25-03.31.54:359][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Risukun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.07.25-03.31.57:234][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.25-03.31.57:235][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.07.25-03.31.57:297][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.07.25-03.31.57:559][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.07.25-03.31.57:559][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.07.25-03.31.57:559][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.07.25-03.31.58:293][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.07.25-03.31.58:293][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.07.25-03.31.58:293][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.07.25-03.31.58:305][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.07.25-03.31.59:063][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.25-03.31.59:063][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.25-03.32.00:639][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.25-03.32.00:640][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.25-03.32.00:640][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.25-03.32.00:640][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.25-03.32.00:640][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.25-03.32.00:640][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.25-03.32.06:729][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.07.25-03.32.07:059][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
-[2016.07.25-03.32.07:520][  0]SourceControl: Info Source control is disabled
-[2016.07.25-03.32.07:663][  0]SourceControl: Info Source control is disabled
-[2016.07.25-03.32.07:686][  0]SourceControl: Info Source control is disabled
-[2016.07.25-03.32.07:742][  0]SourceControl: Info Source control is disabled
-[2016.07.25-03.32.08:410][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.07.25-03.32.08:674][  0]LogEngine: Initializing Engine...
-[2016.07.25-03.32.08:944][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.07.25-03.32.08:955][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.25-03.32.08:983][  0]LogInit: FAudioDevice initialized.
-[2016.07.25-03.32.09:034][  0]LogDerivedDataCache: Saved boot cache 0.05s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.25-03.32.09:056][  0]LogInit: Texture streaming: Enabled
-[2016.07.25-03.32.09:178][  0]LogInit: Transaction tracking system initialized
-[2016.07.25-03.32.09:284][  0]BlueprintLog: New page: Editor Load
-[2016.07.25-03.32.09:769][  0]LocalizationService: Info Localization service is disabled
-[2016.07.25-03.32.10:275][  0]LogConsoleResponse:Display: 
-[2016.07.25-03.32.10:733][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.07.25-03.32.10:733][  0]LogCook:Display: Mobile HDR setting 1
-[2016.07.25-03.32.10:733][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.07.25-03.32.11:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/' took 0.02s
-[2016.07.25-03.32.11:231][  0]SourceControl: Info Source control is disabled
-[2016.07.25-03.32.11:232][  0]Cmd: MAP LOAD FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2016.07.25-03.32.11:232][  0]LightingResults: New page: Lighting Build
-[2016.07.25-03.32.11:236][  0]MapCheck: New page: Map Check
-[2016.07.25-03.32.11:236][  0]LightingResults: New page: Lighting Build
-[2016.07.25-03.32.12:538][  0]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.25-03.32.12:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.25-03.32.12:591][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.25-03.32.12:678][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.367ms to complete.
-[2016.07.25-03.32.12:679][  0]LogFileHelpers: Loading map 'UptimeLevel' took 1.447
-[2016.07.25-03.32.12:951][  0]LogCollectionManager: Loaded 0 collections in 0.003311 seconds
-[2016.07.25-03.32.12:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Collections/' took 0.01s
-[2016.07.25-03.32.12:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Developers/Risukun/Collections/' took 0.01s
-[2016.07.25-03.32.12:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Collections/' took 0.01s
-[2016.07.25-03.32.12:998][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2016.07.25-03.32.13:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 1979 classes and 343 folders.
-[2016.07.25-03.32.13:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.07.25-03.32.13:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.07.25-03.32.13:022][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
-[2016.07.25-03.32.13:033][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.07.25-03.32.13:165][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.07.25-03.32.14:308][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2016.07.25-03.32.14:332][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.07.25-03.32.14:493][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.07.25-03.32.14:499][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.07.25-03.32.14:541][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.07.25-03.32.14:542][  0]LogLoad: Full Startup: 24.73 seconds (BP compile: 0.17 seconds)
-[2016.07.25-03.32.14:542][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.07.25-03.32.14:542][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.07.25-03.32.14:552][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.07.25-03.32.14:552][  0]LogOcInput: OculusInput pre-init called
-[2016.07.25-03.32.14:745][  0]LogContentStreaming: Texture pool size now 200 MB
-[2016.07.25-03.32.15:002][  0]LogRenderer: Reallocating scene render targets to support 968x596 (Frame:2).
-[2016.07.25-03.32.15:289][  3]LogAssetRegistry: Asset discovery search completed in 8.2517 seconds
-[2016.07.25-03.32.15:289][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.07.25-03.32.15:289][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
-[2016.07.25-03.33.15:647][271]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 108 classes and 0 folders.
-[2016.07.25-03.35.37:897][608]LogRenderer: Reallocating scene render targets to support 968x732 (Frame:12402).
-[2016.07.25-03.37.45:104][729]LogMetaData: Removing '/Game/StarterContent/Blueprints/EnemySubset.EnemySubset:UserConstructionScript.K2Node_FunctionEntry_4' ref from Metadata '/Game/StarterContent/Blueprints/Enemies.PackageMetaData'
-[2016.07.25-03.37.45:104][729]LogMetaData: Removing '/Game/StarterContent/Blueprints/EnemySubset.SKEL_EnemySubset_C' ref from Metadata '/Game/StarterContent/Blueprints/Enemies.PackageMetaData'
-[2016.07.25-03.37.45:104][729]LogMetaData: Removing '/Game/StarterContent/Blueprints/EnemySubset.EnemySubset_C' ref from Metadata '/Game/StarterContent/Blueprints/Enemies.PackageMetaData'
-[2016.07.25-03.37.45:104][729]LogMetaData: Removing '/Game/StarterContent/Blueprints/EnemySubset.EnemySubset:EventGraph.K2Node_Event_128' ref from Metadata '/Game/StarterContent/Blueprints/Enemies.PackageMetaData'
-[2016.07.25-03.37.45:104][729]LogMetaData: Removing '/Game/StarterContent/Blueprints/EnemySubset.EnemySubset:EventGraph.K2Node_Event_129' ref from Metadata '/Game/StarterContent/Blueprints/Enemies.PackageMetaData'
-[2016.07.25-03.37.45:104][729]LogMetaData: Removing '/Game/StarterContent/Blueprints/EnemySubset.EnemySubset:EventGraph.K2Node_Event_130' ref from Metadata '/Game/StarterContent/Blueprints/Enemies.PackageMetaData'
-[2016.07.25-03.37.45:168][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/EnemySubset" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset" SILENT=true
-[2016.07.25-03.37.45:203][729]LogSavePackage: Save=32.16ms
-[2016.07.25-03.37.45:203][729]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/EnemySubset9D316010434B15C21F727C8822073FDF.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset'
-[2016.07.25-03.37.45:207][729]LogSavePackage: Total save time: 37.30ms
-[2016.07.25-03.37.45:207][729]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset
-[2016.07.25-03.38.14:283][302]LogRenderer: Reallocating scene render targets to support 972x872 (Frame:20737).
-[2016.07.25-03.39.48:284][823]BlueprintLog: New page: Compile BossClass
-[2016.07.25-03.39.48:338][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.39.48:584][823]BlueprintEditorCompileResults: Info [0478.77] Compile of BossClass successful! [in 299 ms]
-[2016.07.25-03.39.49:710][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/BossClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset" SILENT=true
-[2016.07.25-03.39.49:753][879]LogSavePackage: Save=41.44ms
-[2016.07.25-03.39.49:753][879]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossClassE165DEF94DBAFC64C1120DA02B2DBDAF.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset'
-[2016.07.25-03.39.49:757][879]LogSavePackage: Total save time: 44.76ms
-[2016.07.25-03.39.49:757][879]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset
-[2016.07.25-03.40.03:983][592]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.40.14:390][ 39]BlueprintLog: New page: Compile FemaleWorkerClass
-[2016.07.25-03.40.14:447][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.07.25-03.40.14:690][ 39]BlueprintEditorCompileResults: Info [0504.88] Compile of FemaleWorkerClass successful! [in 300 ms]
-[2016.07.25-03.40.15:332][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/FemaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset" SILENT=true
-[2016.07.25-03.40.15:378][ 69]LogSavePackage: Save=44.29ms
-[2016.07.25-03.40.15:378][ 69]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleWorkerClass792289134A2766BE334DC0BCAFA5C2EA.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset'
-[2016.07.25-03.40.15:381][ 69]LogSavePackage: Total save time: 48.01ms
-[2016.07.25-03.40.15:381][ 69]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset
-[2016.07.25-03.40.26:735][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.40.26:735][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2016.07.25-03.40.41:893][248]BlueprintLog: New page: Compile MaleWorkerClass
-[2016.07.25-03.40.41:947][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2016.07.25-03.40.42:190][248]BlueprintEditorCompileResults: Info [0532.37] Compile of MaleWorkerClass successful! [in 296 ms]
-[2016.07.25-03.40.42:763][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.25-03.40.42:808][274]LogSavePackage: Save=42.56ms
-[2016.07.25-03.40.42:808][274]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass0D3E016542EE2CD99F037BBD0A042A97.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.25-03.40.42:812][274]LogSavePackage: Total save time: 46.83ms
-[2016.07.25-03.40.42:812][274]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset
-[2016.07.25-03.43.11:377][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.43.11:377][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2016.07.25-03.43.11:377][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2016.07.25-03.43.11:441][811]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/UptimeLevel' took 0.064
-[2016.07.25-03.43.11:454][811]LogSavePackage: Save=1.77ms
-[2016.07.25-03.43.11:454][811]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemies_Auto1668BA6D3427F0085558021A3B015C336.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/Enemies_Auto1.uasset'
-[2016.07.25-03.43.11:456][811]LogSavePackage: Total save time: 3.46ms
-[2016.07.25-03.43.11:456][811]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/Enemies_Auto1.uasset
-[2016.07.25-03.43.11:463][811]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/EnemyAI] ([1] browsable assets)...
-[2016.07.25-03.43.11:463][811]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/EnemyAI]
-[2016.07.25-03.43.11:482][811]LogSavePackage: Save=17.04ms
-[2016.07.25-03.43.11:482][811]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/EnemyAI_Auto133AA06E54FBACD3CA363DEAB6FD9AD37.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/EnemyAI_Auto1.uasset'
-[2016.07.25-03.43.11:484][811]LogSavePackage: Total save time: 18.83ms
-[2016.07.25-03.43.11:484][811]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/EnemyAI_Auto1.uasset
-[2016.07.25-03.43.11:484][811]LogFileHelpers: Auto-saving content packages took 0.041
-[2016.07.25-03.46.04:908][213]BlueprintLog: New page: Compile EnemyAI
-[2016.07.25-03.46.05:237][213]BlueprintEditorCompileResults: Info [0855.42] Compile of EnemyAI successful! [in 329 ms]
-[2016.07.25-03.46.05:963][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/EnemyAI" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemyAI.uasset" SILENT=true
-[2016.07.25-03.46.06:004][249]LogSavePackage: Save=39.10ms
-[2016.07.25-03.46.06:004][249]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/EnemyAI507309784957BF3F3EC49D8C9AACBAD7.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemyAI.uasset'
-[2016.07.25-03.46.06:008][249]LogSavePackage: Total save time: 43.35ms
-[2016.07.25-03.46.06:008][249]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemyAI.uasset
-[2016.07.25-03.47.45:968][ 47]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.07.25-03.47.52:306][346]BlueprintLog: New page: Compile EnemySubset
-[2016.07.25-03.47.52:404][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.47.52:404][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2016.07.25-03.47.52:405][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2016.07.25-03.47.53:136][346]BlueprintEditorCompileResults: Info [0963.32] Compile of EnemySubset successful! [in 829 ms]
-[2016.07.25-03.47.53:856][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/EnemySubset" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset" SILENT=true
-[2016.07.25-03.47.53:896][377]LogSavePackage: Save=28.47ms
-[2016.07.25-03.47.53:896][377]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/EnemySubset8D45F35649FD2A28B6AEAF9DDB6E46FC.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset'
-[2016.07.25-03.47.53:900][377]LogSavePackage: Total save time: 42.83ms
-[2016.07.25-03.47.53:900][377]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset
-[2016.07.25-03.51.44:404][810]Cmd: SELECT NONE
-[2016.07.25-03.53.32:772][ 87]BlueprintLog: New page: Compile EnemySubset
-[2016.07.25-03.53.32:898][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.53.32:898][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2016.07.25-03.53.32:898][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2016.07.25-03.53.33:628][ 87]BlueprintEditorCompileResults: Info [1303.81] Compile of EnemySubset successful! [in 855 ms]
-[2016.07.25-03.53.35:049][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/EnemySubset" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset" SILENT=true
-[2016.07.25-03.53.35:101][104]LogSavePackage: Save=34.73ms
-[2016.07.25-03.53.35:101][104]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/EnemySubsetAC5E26194BCA78F8673F17B2499E5045.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset'
-[2016.07.25-03.53.35:106][104]LogSavePackage: Total save time: 53.76ms
-[2016.07.25-03.53.35:106][104]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/EnemySubset.uasset
-[2016.07.25-03.54.09:748][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.54.09:748][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2016.07.25-03.54.09:748][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2016.07.25-03.54.16:429][585]BlueprintLog: New page: Compile BossClass
-[2016.07.25-03.54.16:487][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2016.07.25-03.54.16:747][585]BlueprintEditorCompileResults: Info [1346.93] Compile of BossClass successful! [in 318 ms]
-[2016.07.25-03.54.17:818][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/BossClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset" SILENT=true
-[2016.07.25-03.54.17:867][599]LogSavePackage: Save=41.43ms
-[2016.07.25-03.54.17:867][599]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossClassA6A13D84428BB34EC8AF64AD2B9396BC.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset'
-[2016.07.25-03.54.17:873][599]LogSavePackage: Total save time: 52.32ms
-[2016.07.25-03.54.17:873][599]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset
-[2016.07.25-03.54.47:990][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.54.48:229][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/UptimeLevel" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/Maps/UptimeLevel_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.07.25-03.54.48:941][ 29]LogSavePackage: Save=673.66ms
-[2016.07.25-03.54.48:941][ 29]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UptimeLevel_Auto2AE3A021845707CB721415BBB4EC7B06C.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/Maps/UptimeLevel_Auto2.umap'
-[2016.07.25-03.54.48:944][ 29]LogSavePackage: Total save time: 688.37ms
-[2016.07.25-03.54.48:944][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/Maps/UptimeLevel_Auto2.umap
-[2016.07.25-03.54.48:962][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/UptimeLevel' took 0.971
-[2016.07.25-03.54.48:962][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.971
-[2016.07.25-03.54.48:972][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/FemaleWorkerClass] ([1] browsable assets)...
-[2016.07.25-03.54.48:997][ 29]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/FemaleWorkerClass.FemaleWorkerClass]
-[2016.07.25-03.54.48:997][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/FemaleWorkerClass]
-[2016.07.25-03.54.49:045][ 29]LogSavePackage: Save=40.15ms
-[2016.07.25-03.54.49:045][ 29]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleWorkerClass_Auto2F7ADA8754EFCE48327ADF48C2F2B9EC6.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/FemaleWorkerClass_Auto2.uasset'
-[2016.07.25-03.54.49:048][ 29]LogSavePackage: Total save time: 49.22ms
-[2016.07.25-03.54.49:048][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/FemaleWorkerClass_Auto2.uasset
-[2016.07.25-03.54.49:056][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/MaleWorkerClass] ([1] browsable assets)...
-[2016.07.25-03.54.49:081][ 29]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/MaleWorkerClass.MaleWorkerClass]
-[2016.07.25-03.54.49:081][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/MaleWorkerClass]
-[2016.07.25-03.54.49:127][ 29]LogSavePackage: Save=38.33ms
-[2016.07.25-03.54.49:127][ 29]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass_Auto2593DB0854DB1451507F4F389C000FF73.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/MaleWorkerClass_Auto2.uasset'
-[2016.07.25-03.54.49:129][ 29]LogSavePackage: Total save time: 46.98ms
-[2016.07.25-03.54.49:129][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/MaleWorkerClass_Auto2.uasset
-[2016.07.25-03.54.49:129][ 29]LogFileHelpers: Auto-saving content packages took 0.165
-[2016.07.25-03.55.42:968][713]LogEditorViewport: Clicking Background
-[2016.07.25-03.55.44:561][732]Cmd: SELECT NONE
-[2016.07.25-03.55.48:792][783]LogEditorViewport: Clicking Background
-[2016.07.25-03.56.11:909][115]LogEditorViewport: Clicking on Actor (LMB): FemaleWorkerClass_C (FemaleWorkerClass)
-[2016.07.25-03.56.13:922][142]Cmd: DELETE
-[2016.07.25-03.56.13:922][142]Cmd: ACTOR DELETE
-[2016.07.25-03.56.13:954][142]LogEditorActor: Deleted Actor: FemaleWorkerClass_C
-[2016.07.25-03.56.13:955][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-03.56.13:955][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2016.07.25-03.56.13:955][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2016.07.25-03.56.14:016][142]LogEditorActor: Deleted 1 Actors (0.079 secs)
-[2016.07.25-04.02.55:363][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.25-04.02.55:363][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2016.07.25-04.02.55:363][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2016.07.25-04.02.55:555][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/UptimeLevel" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.07.25-04.02.56:273][471]LogSavePackage: Save=652.03ms
-[2016.07.25-04.02.56:273][471]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UptimeLevel3E75A40C4D2DD316FDB5209F5B08E63F.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap'
-[2016.07.25-04.02.56:310][471]LogSavePackage: Total save time: 699.27ms
-[2016.07.25-04.02.56:310][471]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap
-[2016.07.25-04.02.56:414][471]LogFileHelpers: Saving map 'UptimeLevel' took 0.970
-[2016.07.25-04.02.56:436][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Enemies" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/Enemies.uasset" SILENT=true
-[2016.07.25-04.02.56:441][471]LogSavePackage: Save=1.96ms
-[2016.07.25-04.02.56:441][471]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/EnemiesB91BEE0B4A0DBD3C216B3A9C17C68EE5.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/Enemies.uasset'
-[2016.07.25-04.02.56:444][471]LogSavePackage: Total save time: 5.10ms
-[2016.07.25-04.02.56:444][471]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/Enemies.uasset
-[2016.07.25-04.02.56:455][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/FemaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset" SILENT=true
-[2016.07.25-04.02.56:495][471]LogSavePackage: Save=30.74ms
-[2016.07.25-04.02.56:495][471]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleWorkerClass23EAFAFD4AB705E1AFB48C838FFD9815.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset'
-[2016.07.25-04.02.56:500][471]LogSavePackage: Total save time: 42.01ms
-[2016.07.25-04.02.56:500][471]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset
-[2016.07.25-04.02.56:511][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.25-04.02.56:549][471]LogSavePackage: Save=30.07ms
-[2016.07.25-04.02.56:549][471]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClassD561677F415A3E5FAAF0A5B7039C469C.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.25-04.02.56:553][471]LogSavePackage: Total save time: 40.00ms
-[2
+[2016.07.25-05.23.22:403][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.25-05.23.22:403][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.25-05.23.22:418][  0]LogInit: Computer: RISUKUN-PC
+[2016.07.25-05.23.22:418][  0]LogInit: User: Risukun
+[2016.07.25-05.23.22:418][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.07.25-05.23.22:418][  0]LogInit: High frequency timer resolution =2.929359 MHz
+[2016.07.25-05.23.22:418][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.07.25-05.23.22:418][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.25-05.23.22:418][  0]LogMemory: Process Physical Memory: 312.08 MB used, 312.08 MB peak
+[2016.07.25-05.23.22:418][  0]LogMemory: Process Virtual Memory: 315.30 MB used, 315.30 MB peak
+[2016.07.25-05.23.22:418][  0]LogMemory: Physical Memory: 2836.64 MB used, 4094.49 MB total
+[2016.07.25-05.23.22:418][  0]LogMemory: Virtual Memory: 647.05 MB used, 134217728.00 MB total
+[2016.07.25-05.23.22:472][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.25-05.23.23:099][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.25-05.23.23:123][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 9600 GT' (Feature Level 10_0)
+[2016.07.25-05.23.23:123][  0]LogD3D11RHI:       999MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2016.07.25-05.23.23:125][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.25-05.23.23:125][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2016.07.25-05.23.23:125][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.25-05.23.23:141][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.25-05.23.23:141][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 9600 GT
+[2016.07.25-05.23.23:141][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.07.25-05.23.23:141][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.07.25-05.23.23:141][  0]LogRHI: Texture pool is 699 MB (70% of 999 MB)
+[2016.07.25-05.23.23:156][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.25-05.23.23:175][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/Risukun/Documents/GitHub/Uptime/Intermediate/Shaders/WorkingDirectory/25780/).
+[2016.07.25-05.23.23:175][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Risukun/AppData/Local/Temp/UnrealShaderWorkingDir/FCB144274A00DE30B0472CA3573306D3/'.
+[2016.07.25-05.23.23:175][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.25-05.23.24:843][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.25-05.23.24:850][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.25-05.23.24:858][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.25-05.23.24:865][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.25-05.23.24:872][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.25-05.23.24:878][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.25-05.23.24:883][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.25-05.23.24:888][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.25-05.23.24:893][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.25-05.23.24:898][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.25-05.23.24:903][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.25-05.23.24:913][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.25-05.23.24:913][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.25-05.23.24:915][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.25-05.23.24:935][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.25-05.23.24:939][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.25-05.23.24:944][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.25-05.23.24:949][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.25-05.23.24:955][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.25-05.23.24:955][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.25-05.23.25:059][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.25-05.23.25:175][  0]LogDerivedDataCache: Loaded boot cache 0.12s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.25-05.23.25:175][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.25-05.23.25:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.25-05.23.25:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.25-05.23.25:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.25-05.23.25:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.25-05.23.25:202][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.25-05.23.25:215][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Risukun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.25-05.23.25:480][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.25-05.23.25:481][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.25-05.23.25:540][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.25-05.23.25:711][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.25-05.23.25:711][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.25-05.23.25:711][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.25-05.23.26:156][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.25-05.23.26:156][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.07.25-05.23.26:156][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.25-05.23.26:165][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.25-05.23.26:289][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.25-05.23.26:289][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.25-05.23.26:440][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.25-05.23.26:440][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.25-05.23.26:440][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.25-05.23.26:440][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.25-05.23.26:440][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.25-05.23.26:440][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.25-05.23.27:280][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.25-05.23.27:410][  0]LogAssetRegistry: FAssetRegistry took 0.0230 seconds to start up
+[2016.07.25-05.23.27:631][  0]SourceControl: Info Source control is disabled
+[2016.07.25-05.23.27:782][  0]SourceControl: Info Source control is disabled
+[2016.07.25-05.23.27:795][  0]SourceControl: Info Source control is disabled
+[2016.07.25-05.23.27:806][  0]SourceControl: Info Source control is disabled
+[2016.07.25-05.23.27:976][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.07.25-05.23.28:079][  0]LogEngine: Initializing Engine...
+[2016.07.25-05.23.28:270][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.25-05.23.28:278][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.25-05.23.28:295][  0]LogInit: FAudioDevice initialized.
+[2016.07.25-05.23.28:343][  0]LogDerivedDataCache: Saved boot cache 0.05s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.25-05.23.28:363][  0]LogInit: Texture streaming: Enabled
+[2016.07.25-05.23.28:402][  0]LogInit: Transaction tracking system initialized
+[2016.07.25-05.23.28:440][  0]BlueprintLog: New page: Editor Load
+[2016.07.25-05.23.28:542][  0]LocalizationService: Info Localization service is disabled
+[2016.07.25-05.23.28:786][  0]LogConsoleResponse:Display: 
+[2016.07.25-05.23.28:924][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.25-05.23.28:924][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.25-05.23.28:924][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.25-05.23.29:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/' took 0.02s
+[2016.07.25-05.23.29:030][  0]SourceControl: Info Source control is disabled
+[2016.07.25-05.23.29:030][  0]Cmd: MAP LOAD FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.07.25-05.23.29:032][  0]LightingResults: New page: Lighting Build
+[2016.07.25-05.23.29:037][  0]MapCheck: New page: Map Check
+[2016.07.25-05.23.29:037][  0]LightingResults: New page: Lighting Build
+[2016.07.25-05.23.30:116][  0]LogAIModule: Creating AISystem for world UptimeLevel
+[2016.07.25-05.23.30:163][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.25-05.23.30:169][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.25-05.23.30:251][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.344ms to complete.
+[2016.07.25-05.23.30:251][  0]LogFileHelpers: Loading map 'UptimeLevel' took 1.221
+[2016.07.25-05.23.30:419][  0]LogCollectionManager: Loaded 0 collections in 0.005215 seconds
+[2016.07.25-05.23.30:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Collections/' took 0.01s
+[2016.07.25-05.23.30:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Developers/Risukun/Collections/' took 0.01s
+[2016.07.25-05.23.30:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Collections/' took 0.01s
+[2016.07.25-05.23.30:462][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.07.25-05.23.30:476][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 1979 classes and 343 folders.
+[2016.07.25-05.23.30:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.25-05.23.30:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.25-05.23.30:482][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.07.25-05.23.30:488][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.07.25-05.23.30:496][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.07.25-05.23.30:560][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.07.25-05.23.30:566][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.07.25-05.23.30:670][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.25-05.23.30:677][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.25-05.23.30:705][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.07.25-05.23.30:706][  0]LogLoad: Full Startup: 9.63 seconds (BP compile: 0.00 seconds)
+[2016.07.25-05.23.30:706][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.25-05.23.30:706][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.25-05.23.30:716][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.25-05.23.30:717][  0]LogOcInput: OculusInput pre-init called
+[2016.07.25-05.23.30:768][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.07.25-05.23.30:989][  0]LogRenderer: Reallocating scene render targets to support 968x596 (Frame:2).
+[2016.07.25-05.23.31:280][  3]LogAssetRegistry: Asset discovery search completed in 3.8925 seconds
+[2016.07.25-05.23.31:280][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.25-05.23.31:280][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000183 seconds (updated 0 objects)
+[2016.07.25-05.23.50:495][288]LogRenderer: Reallocating scene render targets to support 968x708 (Frame:376).
+[2016.07.25-05.24.59:030][564]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2016.07.25-05.26.48:214][155]LogRenderer: Reallocating scene render targets to support 996x708 (Frame:4955).
+[2016.07.25-05.26.48:214][155]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.27.30:075][819]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.28.10:367][427]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.29.21:103][546]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.29.30:712][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/Boss_final_NonBinaryFBX_A_pose_cm" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Boss_final_NonBinaryFBX_A_pose_cm.uasset" SILENT=true
+[2016.07.25-05.29.30:992][928]LogSavePackage: Save=223.49ms
+[2016.07.25-05.29.30:993][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Boss_final_NonBinaryFBX_A_pose_cm697000D94867E0195DA5F291C042763E.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Boss_final_NonBinaryFBX_A_pose_cm.uasset'
+[2016.07.25-05.29.31:046][928]LogSavePackage: Total save time: 308.10ms
+[2016.07.25-05.29.31:046][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Boss_final_NonBinaryFBX_A_pose_cm.uasset
+[2016.07.25-05.29.31:079][928]LogSavePackage: Save=6.38ms
+[2016.07.25-05.29.31:079][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Boss_final_NonBinaryFBX_A_pose_cm_Skeleton38D49C1C494CF17145B90694B35E30BC.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Boss_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset'
+[2016.07.25-05.29.31:083][928]LogSavePackage: Total save time: 16.83ms
+[2016.07.25-05.29.31:083][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Boss_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset
+[2016.07.25-05.29.31:235][928]LogSavePackage: Save=93.14ms
+[2016.07.25-05.29.31:235][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Female_final_NonBinaryFBX_A_pose_cm30FEA25A404637588FD4C3AC5612336F.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Female_final_NonBinaryFBX_A_pose_cm.uasset'
+[2016.07.25-05.29.31:239][928]LogSavePackage: Total save time: 110.27ms
+[2016.07.25-05.29.31:239][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Female_final_NonBinaryFBX_A_pose_cm.uasset
+[2016.07.25-05.29.31:275][928]LogSavePackage: Save=6.86ms
+[2016.07.25-05.29.31:275][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Female_final_NonBinaryFBX_A_pose_cm_Skeleton324AE3FF4346ADDAE3068592D98F7E22.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Female_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset'
+[2016.07.25-05.29.31:278][928]LogSavePackage: Total save time: 16.82ms
+[2016.07.25-05.29.31:278][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Female_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset
+[2016.07.25-05.29.31:312][928]LogSavePackage: Save=6.80ms
+[2016.07.25-05.29.31:312][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UE4_Mannequin_Skeleton661B78EF47C2485ED7A5D2A19323B8B0.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.07.25-05.29.31:315][928]LogSavePackage: Total save time: 17.41ms
+[2016.07.25-05.29.31:315][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.07.25-05.29.31:455][928]LogSavePackage: Save=86.86ms
+[2016.07.25-05.29.31:455][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/SK_MannequinF01905B542F7F4715B6CEE875FD6B2C3.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2016.07.25-05.29.31:459][928]LogSavePackage: Total save time: 105.64ms
+[2016.07.25-05.29.31:459][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2016.07.25-05.29.31:502][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/Enemy_Idle" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Enemy_Idle.uasset" SILENT=true
+[2016.07.25-05.29.31:522][928]LogSavePackage: Save=17.38ms
+[2016.07.25-05.29.31:522][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_Idle710E51E64BCA72B75D33AE8996EFDF74.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Enemy_Idle.uasset'
+[2016.07.25-05.29.31:524][928]LogSavePackage: Total save time: 20.19ms
+[2016.07.25-05.29.31:524][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Enemy_Idle.uasset
+[2016.07.25-05.29.31:552][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/Enemy_Walk" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Enemy_Walk.uasset" SILENT=true
+[2016.07.25-05.29.31:569][928]LogSavePackage: Save=14.72ms
+[2016.07.25-05.29.31:569][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_Walk27BA2B79475B21113AC56E8A0535FBEF.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Enemy_Walk.uasset'
+[2016.07.25-05.29.31:572][928]LogSavePackage: Total save time: 17.43ms
+[2016.07.25-05.29.31:572][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Enemy_Walk.uasset
+[2016.07.25-05.29.31:600][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/Death_1" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Death_1.uasset" SILENT=true
+[2016.07.25-05.29.31:618][928]LogSavePackage: Save=15.49ms
+[2016.07.25-05.29.31:618][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Death_13BD47FA544201B4BB0878A84B69A14BA.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Death_1.uasset'
+[2016.07.25-05.29.31:621][928]LogSavePackage: Total save time: 18.27ms
+[2016.07.25-05.29.31:621][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/Death_1.uasset
+[2016.07.25-05.29.31:666][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerFemale/Enemy_Idle" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Enemy_Idle.uasset" SILENT=true
+[2016.07.25-05.29.32:108][928]LogSavePackage: Save=18.60ms
+[2016.07.25-05.29.32:108][928]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_IdleF2CCCCBC4BB257667BD0C2928D56B986.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Enemy_Idle.uasset'
+[2016.07.25-05.29.32:113][928]LogSavePackage: Total save time: 24.83ms
+[2016.07.25-05.29.32:113][928]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Enemy_Idle.uasset
+[2016.07.25-05.30.43:229][  9]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.31.23:227][653]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.32.24:545][728]LogSavePackage: Save=5.65ms
+[2016.07.25-05.32.24:545][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Female_final_NonBinaryFBX_A_pose_cm_Skeleton575FEED54E52CAD20E6181AA941C6FFF.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Female_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset'
+[2016.07.25-05.32.24:548][728]LogSavePackage: Total save time: 16.96ms
+[2016.07.25-05.32.24:548][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Female_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset
+[2016.07.25-05.32.24:694][728]LogSavePackage: Save=95.61ms
+[2016.07.25-05.32.24:694][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Dude_final_NonBinaryFBX_A_pose_cm94A2527B4D3B760B9A21E2B1911D20FD.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm.uasset'
+[2016.07.25-05.32.24:698][728]LogSavePackage: Total save time: 112.15ms
+[2016.07.25-05.32.24:698][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm.uasset
+[2016.07.25-05.32.24:722][728]LogSavePackage: Save=6.52ms
+[2016.07.25-05.32.24:722][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton23751D564584DF69C8A9A0B6B393097E.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset'
+[2016.07.25-05.32.24:725][728]LogSavePackage: Total save time: 16.42ms
+[2016.07.25-05.32.24:725][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset
+[2016.07.25-05.32.24:747][728]LogSavePackage: Save=5.94ms
+[2016.07.25-05.32.24:747][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UE4_Mannequin_Skeleton07F7490C4DE867659A0EE0B18A1D95A0.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.07.25-05.32.24:750][728]LogSavePackage: Total save time: 15.26ms
+[2016.07.25-05.32.24:750][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.07.25-05.32.24:780][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerFemale/Enemy_Walk" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Enemy_Walk.uasset" SILENT=true
+[2016.07.25-05.32.24:797][728]LogSavePackage: Save=14.84ms
+[2016.07.25-05.32.24:797][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_Walk2D6975D64E5987FE21809F8C9E6AFC9F.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Enemy_Walk.uasset'
+[2016.07.25-05.32.24:800][728]LogSavePackage: Total save time: 18.09ms
+[2016.07.25-05.32.24:800][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Enemy_Walk.uasset
+[2016.07.25-05.32.24:828][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerFemale/Death_2" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Death_2.uasset" SILENT=true
+[2016.07.25-05.32.24:846][728]LogSavePackage: Save=15.65ms
+[2016.07.25-05.32.24:846][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Death_21001823A4C4971D28BA8CD8AA21EDC66.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Death_2.uasset'
+[2016.07.25-05.32.24:849][728]LogSavePackage: Total save time: 18.86ms
+[2016.07.25-05.32.24:849][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/Death_2.uasset
+[2016.07.25-05.32.24:877][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerMale/Enemy_Idle" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Enemy_Idle.uasset" SILENT=true
+[2016.07.25-05.32.24:895][728]LogSavePackage: Save=15.85ms
+[2016.07.25-05.32.24:895][728]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_IdleC9797A654EC6BB3E13002086BB206F3E.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Enemy_Idle.uasset'
+[2016.07.25-05.32.24:897][728]LogSavePackage: Total save time: 18.68ms
+[2016.07.25-05.32.24:897][728]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Enemy_Idle.uasset
+[2016.07.25-05.32.27:297][757]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.33.18:957][637]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.34.06:054][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/UptimeLevel' took 0.045
+[2016.07.25-05.34.06:071][390]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton] ([1] browsable assets)...
+[2016.07.25-05.34.06:071][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton]
+[2016.07.25-05.34.06:201][390]LogSavePackage: Save=7.72ms
+[2016.07.25-05.34.06:201][390]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton_Auto1E41EFD1249FF7710CA160D9EB6E14DF8.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton_Auto1.uasset'
+[2016.07.25-05.34.06:204][390]LogSavePackage: Total save time: 131.42ms
+[2016.07.25-05.34.06:204][390]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton_Auto1.uasset
+[2016.07.25-05.34.06:210][390]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2016.07.25-05.34.06:210][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2016.07.25-05.34.06:224][390]LogSavePackage: Save=5.77ms
+[2016.07.25-05.34.06:225][390]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UE4_Mannequin_Skeleton_Auto1E754796841F055EDAECD2DA70761A13C.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2016.07.25-05.34.06:226][390]LogSavePackage: Total save time: 13.19ms
+[2016.07.25-05.34.06:226][390]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2016.07.25-05.34.06:231][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPCs/OfficeWorkerMale/Enemy_Walk] ([1] browsable assets)...
+[2016.07.25-05.34.06:253][390]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/NPCs/OfficeWorkerMale/Enemy_Walk.Enemy_Walk]
+[2016.07.25-05.34.06:253][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCs/OfficeWorkerMale/Enemy_Walk]
+[2016.07.25-05.34.06:273][390]LogSavePackage: Save=15.72ms
+[2016.07.25-05.34.06:273][390]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_Walk_Auto16634BA9C477ADED16B81C1874F395590.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/NPCs/OfficeWorkerMale/Enemy_Walk_Auto1.uasset'
+[2016.07.25-05.34.06:275][390]LogSavePackage: Total save time: 18.99ms
+[2016.07.25-05.34.06:275][390]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/NPCs/OfficeWorkerMale/Enemy_Walk_Auto1.uasset
+[2016.07.25-05.34.06:280][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPCs/OfficeWorkerMale/Death_3] ([1] browsable assets)...
+[2016.07.25-05.34.06:300][390]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/NPCs/OfficeWorkerMale/Death_3.Death_3]
+[2016.07.25-05.34.06:300][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPCs/OfficeWorkerMale/Death_3]
+[2016.07.25-05.34.06:319][390]LogSavePackage: Save=16.39ms
+[2016.07.25-05.34.06:319][390]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Death_3_Auto1A71068A84F67E4514B8B10862AA02FC8.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/NPCs/OfficeWorkerMale/Death_3_Auto1.uasset'
+[2016.07.25-05.34.06:321][390]LogSavePackage: Total save time: 18.19ms
+[2016.07.25-05.34.06:321][390]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/NPCs/OfficeWorkerMale/Death_3_Auto1.uasset
+[2016.07.25-05.34.06:321][390]LogFileHelpers: Auto-saving content packages took 0.257
+[2016.07.25-05.34.14:649][508]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.34.50:943][ 51]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_52) - call TermArticulated first.
+[2016.07.25-05.34.51:303][ 51]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.35.56:087][719]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.36.06:928][ 13]LogSavePackage: Save=5.56ms
+[2016.07.25-05.36.06:928][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton73AD6D6146C5D009C653CDAC09E7E498.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset'
+[2016.07.25-05.36.06:932][ 13]LogSavePackage: Total save time: 17.84ms
+[2016.07.25-05.36.06:932][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Dude_final_NonBinaryFBX_A_pose_cm_Skeleton.uasset
+[2016.07.25-05.36.07:288][ 13]LogSavePackage: Save=9.48ms
+[2016.07.25-05.36.07:288][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UE4_Mannequin_Skeleton3EBF74A247BEA13D43359B89C297F5EC.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.07.25-05.36.07:293][ 13]LogSavePackage: Total save time: 351.36ms
+[2016.07.25-05.36.07:293][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.07.25-05.36.07:331][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerMale/Enemy_Walk" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Enemy_Walk.uasset" SILENT=true
+[2016.07.25-05.36.07:348][ 13]LogSavePackage: Save=14.91ms
+[2016.07.25-05.36.07:348][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Enemy_Walk8E2C1A14429A1326640A07ACEED1E2A5.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Enemy_Walk.uasset'
+[2016.07.25-05.36.07:352][ 13]LogSavePackage: Total save time: 19.05ms
+[2016.07.25-05.36.07:352][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Enemy_Walk.uasset
+[2016.07.25-05.36.07:381][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerMale/Death_3" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Death_3.uasset" SILENT=true
+[2016.07.25-05.36.07:399][ 13]LogSavePackage: Save=15.96ms
+[2016.07.25-05.36.07:399][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Death_30A33D51449CC1642C8095BB0644A24C6.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Death_3.uasset'
+[2016.07.25-05.36.07:402][ 13]LogSavePackage: Total save time: 19.79ms
+[2016.07.25-05.36.07:403][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Death_3.uasset
+[2016.07.25-05.36.07:432][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerMale/Prone_To_Stand" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Prone_To_Stand.uasset" SILENT=true
+[2016.07.25-05.36.07:450][ 13]LogSavePackage: Save=15.77ms
+[2016.07.25-05.36.07:450][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Prone_To_StandA53239854CF3B32D9BE738AC620ED947.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Prone_To_Stand.uasset'
+[2016.07.25-05.36.07:453][ 13]LogSavePackage: Total save time: 19.41ms
+[2016.07.25-05.36.07:453][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/Prone_To_Stand.uasset
+[2016.07.25-05.38.33:995][782]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.38.36:318][814]LogRenderer: Reallocating scene render targets to support 1100x708 (Frame:19985).
+[2016.07.25-05.42.55:957][889]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.55:979][890]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:002][891]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:023][892]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:044][893]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:067][894]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:090][895]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:111][896]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:132][897]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:152][898]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:176][899]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:197][900]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:218][901]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:238][902]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:259][903]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:280][904]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:301][905]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:323][906]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:343][907]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:364][908]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:390][909]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:413][910]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:434][911]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:455][912]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:476][913]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:497][914]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:519][915]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:539][916]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:559][917]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:579][918]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:603][919]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:624][920]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:645][921]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:666][922]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:686][923]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:710][924]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:731][925]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:751][926]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:772][927]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:792][928]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:813][929]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:834][930]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:856][931]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:878][932]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:898][933]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:925][934]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:948][935]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:972][936]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.56:996][937]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:017][938]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:039][939]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:060][940]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:081][941]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:102][942]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:122][943]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:145][944]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:167][945]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:190][946]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:212][947]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:234][948]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:259][949]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:281][950]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:303][951]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:325][952]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:347][953]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:369][954]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.42.57:406][955]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:430][444]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:498][445]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:568][446]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:637][447]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:706][448]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:779][449]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:848][450]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:917][451]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.31:986][452]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:056][453]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:128][454]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:200][455]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:266][456]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:336][457]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:405][458]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:474][459]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:546][460]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:616][461]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:686][462]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:756][463]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:827][464]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:914][465]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:935][466]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:956][467]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:978][468]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.32:998][469]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:019][470]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:040][471]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:062][472]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:081][473]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:101][474]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:123][475]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:144][476]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:166][477]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:190][478]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:212][479]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:234][480]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:255][481]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:277][482]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:299][483]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:320][484]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:341][485]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:363][486]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:383][487]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:403][488]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:423][489]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:445][490]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:466][491]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:487][492]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:510][493]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:532][494]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:554][495]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:575][496]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:597][497]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:618][498]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:638][499]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:659][500]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:681][501]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:700][502]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:720][503]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:741][504]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:761][505]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:783][506]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:803][507]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:823][508]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:844][509]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:866][510]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:888][511]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:909][512]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:931][513]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:950][514]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:971][515]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.33:994][516]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:015][517]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:036][518]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:057][519]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:079][520]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:101][521]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:122][522]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:143][523]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:166][524]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:188][525]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:209][526]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:231][527]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:253][528]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:273][529]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:294][530]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:317][531]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:339][532]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:361][533]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:382][534]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:403][535]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:424][536]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:446][537]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:467][538]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:488][539]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:511][540]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:532][541]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:553][542]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:575][543]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:596][544]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:616][545]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:635][546]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:657][547]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:678][548]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:698][549]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:717][550]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:737][551]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:758][552]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:779][553]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:801][554]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:822][555]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:843][556]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:864][557]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:885][558]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:906][559]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:927][560]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:949][561]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:970][562]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.34:991][563]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:012][564]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:033][565]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:054][566]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:074][567]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:096][568]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:118][569]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:139][570]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:162][571]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:184][572]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:204][573]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:225][574]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:245][575]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:267][576]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:289][577]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:310][578]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:334][579]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:355][580]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:377][581]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:397][582]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:418][583]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:440][584]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:462][585]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:486][586]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:507][587]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:528][588]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:550][589]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:571][590]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:593][591]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:614][592]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:634][593]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:656][594]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:676][595]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:697][596]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:718][597]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:738][598]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:760][599]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:781][600]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:804][601]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:825][602]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:845][603]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:867][604]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:887][605]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:907][606]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:928][607]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:949][608]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:970][609]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.35:992][610]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:013][611]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:034][612]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:053][613]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:074][614]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:096][615]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:116][616]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:138][617]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:157][618]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:178][619]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:201][620]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:221][621]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:242][622]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:262][623]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:283][624]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:304][625]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:325][626]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:346][627]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:369][628]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:389][629]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:410][630]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:432][631]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:455][632]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:476][633]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:496][634]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:521][635]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:542][636]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:563][637]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:584][638]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:605][639]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:627][640]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:648][641]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:668][642]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:688][643]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:708][644]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:729][645]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:751][646]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:773][647]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:794][648]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:815][649]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:837][650]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:859][651]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:879][652]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:904][653]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:924][654]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:944][655]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:966][656]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.36:989][657]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:010][658]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:032][659]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:053][660]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:074][661]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:095][662]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:115][663]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.37:135][664]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:121][766]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:144][767]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:167][768]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:188][769]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:212][770]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:234][771]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:256][772]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:278][773]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:299][774]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:321][775]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:342][776]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:364][777]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:388][778]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:411][779]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:434][780]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:455][781]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:478][782]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:500][783]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:522][784]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:545][785]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:566][786]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:587][787]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:608][788]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:630][789]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:653][790]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:675][791]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:697][792]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:719][793]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:741][794]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:764][795]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:787][796]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:809][797]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:830][798]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:852][799]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:873][800]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:894][801]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:915][802]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:937][803]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:956][804]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:978][805]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.41:999][806]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:019][807]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:042][808]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:063][809]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:085][810]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:107][811]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:127][812]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:149][813]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:172][814]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:193][815]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:216][816]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:237][817]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:258][818]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:279][819]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:301][820]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:322][821]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:344][822]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:366][823]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:387][824]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:410][825]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:432][826]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:454][827]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:473][828]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:496][829]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:518][830]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:540][831]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:562][832]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:583][833]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:605][834]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:627][835]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:648][836]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:668][837]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:690][838]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:710][839]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:732][840]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:754][841]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:774][842]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:794][843]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:816][844]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:838][845]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:860][846]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:881][847]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:900][848]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:921][849]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:945][850]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:967][851]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.42:987][852]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:008][853]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:028][854]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:051][855]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:073][856]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:094][857]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:116][858]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:137][859]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:163][860]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:184][861]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.43:206][862]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:288][ 19]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:361][ 20]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:430][ 21]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:502][ 22]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:577][ 23]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:645][ 24]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:719][ 25]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:787][ 26]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:858][ 27]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.51:928][ 28]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.52:001][ 29]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.52:075][ 30]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.52:143][ 31]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.43.52:214][ 32]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.44.25:692][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/BossBlend" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossBlend.uasset" SILENT=true
+[2016.07.25-05.44.25:709][500]LogSavePackage: Save=14.85ms
+[2016.07.25-05.44.25:709][500]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossBlend302EA3B0467A95609EFE938B98A5A93D.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossBlend.uasset'
+[2016.07.25-05.44.25:713][500]LogSavePackage: Total save time: 19.40ms
+[2016.07.25-05.44.25:713][500]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossBlend.uasset
+[2016.07.25-05.45.06:554][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/BossBlend" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossBlend.uasset" SILENT=true
+[2016.07.25-05.45.06:570][ 71]LogSavePackage: Save=5.24ms
+[2016.07.25-05.45.06:570][ 71]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossBlend06F1E71D46BBCB1B7418049398BF97AA.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossBlend.uasset'
+[2016.07.25-05.45.06:572][ 71]LogSavePackage: Total save time: 16.93ms
+[2016.07.25-05.45.06:572][ 71]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossBlend.uasset
+[2016.07.25-05.45.34:267][722]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.46.54:377][433]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.54:402][434]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.54:422][435]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.54:458][436]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.58:611][495]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.58:683][496]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.58:751][497]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.58:820][498]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.58:896][499]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.58:962][500]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:033][501]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:103][502]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:172][503]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:244][504]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:314][505]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:385][506]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:455][507]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:525][508]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:596][509]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:665][510]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:738][511]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:805][512]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:876][513]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.46.59:947][514]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:017][515]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:089][516]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:157][517]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:227][518]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:299][519]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:369][520]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:441][521]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:510][522]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:585][523]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:651][524]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:721][525]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:795][526]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:861][527]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.00:933][528]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.01:004][529]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:274][547]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:342][548]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:411][549]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:482][550]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:554][551]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:624][552]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:693][553]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:763][554]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:834][555]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:905][556]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.02:975][557]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:044][558]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:114][559]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:187][560]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:257][561]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:326][562]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:395][563]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:486][564]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:508][565]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:529][566]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:551][567]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:573][568]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:593][569]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:614][570]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:636][571]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:656][572]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:676][573]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:697][574]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:719][575]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:740][576]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:762][577]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:784][578]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:805][579]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:824][580]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:846][581]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:869][582]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:889][583]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:911][584]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:932][585]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:956][586]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.03:978][587]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:000][588]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:021][589]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:042][590]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:064][591]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:086][592]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:108][593]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:129][594]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:151][595]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:175][596]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:196][597]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:215][598]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:236][599]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:258][600]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:286][601]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:307][602]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:328][603]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:349][604]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:369][605]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:391][606]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:412][607]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:433][608]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:455][609]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:475][610]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:496][611]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:517][612]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:538][613]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:558][614]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:579][615]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:600][616]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:622][617]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:643][618]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:663][619]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:685][620]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:705][621]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:725][622]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:745][623]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:766][624]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:786][625]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:806][626]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:827][627]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:849][628]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:870][629]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:890][630]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:910][631]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:935][632]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.04:958][633]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.47.17:706][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerFemale/FemaleBlend" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/FemaleBlend.uasset" SILENT=true
+[2016.07.25-05.47.17:723][852]LogSavePackage: Save=14.79ms
+[2016.07.25-05.47.17:723][852]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleBlendAEB58E1F458FCC221AD24F834219B10E.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/FemaleBlend.uasset'
+[2016.07.25-05.47.17:727][852]LogSavePackage: Total save time: 19.54ms
+[2016.07.25-05.47.17:727][852]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/FemaleBlend.uasset
+[2016.07.25-05.47.38:982][332]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.07.25-05.48.27:617][199]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.48.27:638][200]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.48.27:659][201]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.48.27:684][202]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.07.25-05.48.35:557][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerMale/MaleBlend" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/MaleBlend.uasset" SILENT=true
+[2016.07.25-05.48.35:574][351]LogSavePackage: Save=15.02ms
+[2016.07.25-05.48.35:574][351]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleBlendC8DB43504607731E68E115AA5C7C50B5.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/MaleBlend.uasset'
+[2016.07.25-05.48.35:579][351]LogSavePackage: Total save time: 19.53ms
+[2016.07.25-05.48.35:579][351]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/MaleBlend.uasset
+[2016.07.25-05.49.52:262][773]Cmd: QUIT_EDITOR
+[2016.07.25-05.49.52:483][773]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.25-05.49.52:570][773]LogExit: Preparing to exit.
+[2016.07.25-05.49.53:765][773]LogExit: Editor shut down
+[2016.07.25-05.49.53:770][773]LogExit: Transaction tracking system shut down
+[2016.07.25-05.49.55:253][773]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.25-05.49.55:254][773]LogExit: Object subsystem successfully closed.
+[2016.07.25-05.49.55:490][773]LogD3D11RHI: Shutdown
+[2016.07.25-05.49.55:490][773]LogD3D11RHI: CleanupD3DDevice
+[2016.07.25-05.49.55:912][773]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.25-05.49.55:992][773]LogDerivedDataCache: Shutdown
+[2016.07.25-05.49.56:505][773]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.07.25-05.49.56:519][773]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.07.25-05.49.56:519][773]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.07.25-05.49.56:520][773]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.07.25-05.49.56:520][773]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.07.25-05.49.56:520][773]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.07.25-05.49.56:566][773]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.07.25-05.49.56:567][773]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.07.25-05.49.56:567][773]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.07.25-05.49.56:567][773]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.07.25-05.49.56:582][773]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.07.25-05.49.56:582][773]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.07.25-05.49.56:582][773]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.07.25-05.49.56:582][773]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.07.25-05.49.56:583][773]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.07.25-05.49.56:600][773]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.07.25-05.49.56:621][773]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.07.25-05.49.56:633][773]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.07.25-05.49.56:633][773]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.07.25-05.49.56:633][773]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.07.25-05.49.56:633][773]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.07.25-05.49.57:555][773]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.07.25-05.49.57:555][773]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.07.25-05.49.57:555][773]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.07.25-05.49.57:555][773]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.07.25-05.49.57:556][773]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.07.25-05.49.57:557][773]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.07.25-05.49.57:648][773]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.07.25-05.49.57:648][773]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.07.25-05.49.57:663][773]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.07.25-05.49.57:679][773]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.07.25-05.49.57:693][773]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.07.25-05.49.57:704][773]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.07.25-05.49.57:704][773]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.07.25-05.49.57:763][773]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.07.25-05.49.57:763][773]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.07.25-05.49.57:788][773]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.07.25-05.49.57:788][773]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.07.25-05.49.57:788][773]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.07.25-05.49.57:812][773]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.07.25-05.49.57:812][773]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.07.25-05.49.57:825][773]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.07.25-05.49.57:835][773]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.07.25-05.49.57:876][773]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.07.25-05.49.57:891][773]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.07.25-05.49.57:891][773]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.07.25-05.49.57:891][773]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.07.25-05.49.57:906][773]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.07.25-05.49.57:909][773]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.07.25-05.49.57:909][773]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.07.25-05.49.57:909][773]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.07.25-05.49.57:909][773]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.07.25-05.49.57:909][773]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.07.25-05.49.57:910][773]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.07.25-05.49.57:922][773]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.07.25-05.49.57:922][773]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.07.25-05.49.57:922][773]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.07.25-05.49.57:922][773]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.07.25-05.49.57:923][773]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.07.25-05.49.57:932][773]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.07.25-05.49.57:932][773]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.07.25-05.49.57:932][773]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.07.25-05.49.57:932][773]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.07.25-05.49.57:932][773]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.07.25-05.49.57:932][773]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.07.25-05.49.57:933][773]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.07.25-05.49.57:933][773]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.07.25-05.49.57:935][773]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.07.25-05.49.57:943][773]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.07.25-05.49.58:329][773]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.07.25-05.49.58:332][773]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.07.25-05.49.58:332][773]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.07.25-05.49.58:432][773]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.07.25-05.49.58:432][773]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.07.25-05.49.58:432][773]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.07.25-05.49.58:448][773]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.07.25-05.49.58:448][773]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.07.25-05.49.58:458][773]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.07.25-05.49.58:458][773]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.07.25-05.49.58:459][773]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.07.25-05.49.58:459][773]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.07.25-05.49.58:459][773]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.07.25-05.49.58:459][773]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.07.25-05.49.58:459][773]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.07.25-05.49.58:475][773]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.07.25-05.49.58:475][773]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.07.25-05.49.58:497][773]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.25-05.49.58:497][773]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.25-05.49.58:497][773]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.07.25-05.49.58:520][773]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.07.25-05.49.58:539][773]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.07.25-05.49.58:568][773]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.07.25-05.49.58:586][773]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.07.25-05.49.58:625][773]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.07.25-05.49.58:625][773]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.07.25-05.49.58:643][773]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.25-05.49.58:653][773]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.25-05.49.58:654][773]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.25-05.49.58:677][773]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.07.25-05.49.58:677][773]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.07.25-05.49.58:677][773]LogDerivedDataCache: Shutdown
+[2016.07.25-05.49.58:677][773]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.25-05.49.58:685][773]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.25-05.49.58:685][773]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.25-05.49.58:696][773]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.25-05.49.58:697][773]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.25-05.49.58:700][773]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.25-05.49.58:700][773]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.25-05.49.58:700][773]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.25-05.49.58:701][773]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.25-05.49.58:714][773]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.25-05.49.58:715][773]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.25-05.49.58:715][773]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.25-05.49.58:715][773]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.25-05.49.58:715][773]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.25-05.49.59:719][773]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.25-05.49.59:769][773]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.25-05.49.59:778][773]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.25-05.49.59:778][773]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.25-05.49.59:779][773]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.25-05.49.59:779][773]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.25-05.49.59:779][773]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.25-05.49.59:800][773]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.25-05.49.59:822][773]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.25-05.49.59:822][773]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.25-05.49.59:834][773]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.25-05.49.59:834][773]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.25-05.49.59:834][773]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.25-05.49.59:834][773]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.25-05.49.59:848][773]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.25-05.49.59:848][773]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.25-05.49.59:855][773]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.25-05.49.59:883][773]LogExit: Exiting.
+[2016.07.25-05.49.59:898][773]Log file closed, 07/25/16 15:49:59
