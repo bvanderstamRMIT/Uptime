@@ -53,3 +53,7 @@ Temporary Items
 /Saved/
 /Build/
 Saved/AutoScreenshot.png
+
+*.png
+
+Saved/Autosaves/PackageRestoreData.json
