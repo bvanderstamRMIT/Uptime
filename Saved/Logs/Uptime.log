@@ -1,9 +1,9 @@
-﻿Log file open, 07/26/16 21:09:12
+﻿Log file open, 08/14/16 13:30:01
 LogInit:Display: Running engine for game: Uptime
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(411841440) SRandInit(411841441).
+LogInit:Display: RandInit(-22096420) SRandInit(-22096418).
 LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-LogStats: Stats thread started at 0.066766
+LogStats: Stats thread started at 0.095429
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,619 +29,428 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.07.26-11.09.12:628][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.26-11.09.12:628][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.07.26-11.09.12:651][  0]LogInit: Computer: RISUKUN-PC
-[2016.07.26-11.09.12:651][  0]LogInit: User: Risukun
-[2016.07.26-11.09.12:651][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.07.26-11.09.12:651][  0]LogInit: High frequency timer resolution =2.929355 MHz
-[2016.07.26-11.09.12:651][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
-[2016.07.26-11.09.12:651][  0]LogMemory: Platform Memory Stats for Windows
-[2016.07.26-11.09.12:651][  0]LogMemory: Process Physical Memory: 312.14 MB used, 312.14 MB peak
-[2016.07.26-11.09.12:651][  0]LogMemory: Process Virtual Memory: 314.36 MB used, 314.36 MB peak
-[2016.07.26-11.09.12:651][  0]LogMemory: Physical Memory: 2949.79 MB used, 4094.49 MB total
-[2016.07.26-11.09.12:651][  0]LogMemory: Virtual Memory: 646.11 MB used, 134217728.00 MB total
-[2016.07.26-11.09.12:698][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.07.26-11.09.13:310][  0]LogD3D11RHI: D3D11 adapters:
-[2016.07.26-11.09.13:334][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 9600 GT' (Feature Level 10_0)
-[2016.07.26-11.09.13:334][  0]LogD3D11RHI:       999MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
-[2016.07.26-11.09.13:337][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.07.26-11.09.13:337][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
-[2016.07.26-11.09.13:337][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.07.26-11.09.13:346][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.07.26-11.09.13:346][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 9600 GT
-[2016.07.26-11.09.13:346][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.07.26-11.09.13:346][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.07.26-11.09.13:346][  0]LogRHI: Texture pool is 699 MB (70% of 999 MB)
-[2016.07.26-11.09.13:358][  0]LogD3D11RHI: Async texture creation enabled
-[2016.07.26-11.09.13:377][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/Risukun/Documents/GitHub/Uptime/Intermediate/Shaders/WorkingDirectory/11280/).
-[2016.07.26-11.09.13:377][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Risukun/AppData/Local/Temp/UnrealShaderWorkingDir/6DA43186409F9D72ACF9BD8147497A1B/'.
-[2016.07.26-11.09.13:377][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.07.26-11.09.15:473][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.07.26-11.09.15:481][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.07.26-11.09.15:488][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.07.26-11.09.15:495][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.07.26-11.09.15:502][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.07.26-11.09.15:508][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.07.26-11.09.15:513][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.07.26-11.09.15:518][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.07.26-11.09.15:523][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.07.26-11.09.15:529][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.07.26-11.09.15:534][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.07.26-11.09.15:545][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.07.26-11.09.15:545][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.07.26-11.09.15:548][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.07.26-11.09.15:569][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.07.26-11.09.15:573][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.07.26-11.09.15:578][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.07.26-11.09.15:584][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.07.26-11.09.15:589][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.07.26-11.09.15:589][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.07.26-11.09.15:708][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.07.26-11.09.15:999][  0]LogDerivedDataCache: Loaded boot cache 0.29s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.26-11.09.15:999][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.07.26-11.09.15:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.07.26-11.09.15:999][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.07.26-11.09.15:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.07.26-11.09.15:999][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.07.26-11.09.16:105][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.07.26-11.09.16:118][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Risukun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.07.26-11.09.19:011][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.26-11.09.19:013][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.07.26-11.09.19:127][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.07.26-11.09.19:353][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.07.26-11.09.19:353][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.07.26-11.09.19:353][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.07.26-11.09.20:040][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.07.26-11.09.20:040][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.07.26-11.09.20:040][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.07.26-11.09.20:051][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.07.26-11.09.20:807][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.26-11.09.20:807][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.26-11.09.22:342][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.26-11.09.22:342][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.26-11.09.22:342][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.26-11.09.22:342][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.26-11.09.22:342][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.26-11.09.22:342][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.26-11.09.28:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.07.26-11.09.28:911][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
-[2016.07.26-11.09.29:355][  0]SourceControl: Info Source control is disabled
-[2016.07.26-11.09.29:497][  0]SourceControl: Info Source control is disabled
-[2016.07.26-11.09.29:530][  0]SourceControl: Info Source control is disabled
-[2016.07.26-11.09.29:577][  0]SourceControl: Info Source control is disabled
-[2016.07.26-11.09.30:383][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.07.26-11.09.30:676][  0]LogEngine: Initializing Engine...
-[2016.07.26-11.09.30:920][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.07.26-11.09.30:931][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.26-11.09.30:952][  0]LogInit: FAudioDevice initialized.
-[2016.07.26-11.09.31:019][  0]LogDerivedDataCache: Saved boot cache 0.07s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.26-11.09.31:050][  0]LogInit: Texture streaming: Enabled
-[2016.07.26-11.09.31:193][  0]LogInit: Transaction tracking system initialized
-[2016.07.26-11.09.31:292][  0]BlueprintLog: New page: Editor Load
-[2016.07.26-11.09.31:812][  0]LocalizationService: Info Localization service is disabled
-[2016.07.26-11.09.32:300][  0]LogConsoleResponse:Display: 
-[2016.07.26-11.09.32:794][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.07.26-11.09.32:794][  0]LogCook:Display: Mobile HDR setting 1
-[2016.07.26-11.09.32:794][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.07.26-11.09.33:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/' took 0.02s
-[2016.07.26-11.09.33:258][  0]SourceControl: Info Source control is disabled
-[2016.07.26-11.09.33:258][  0]Cmd: MAP LOAD FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2016.07.26-11.09.33:259][  0]LightingResults: New page: Lighting Build
-[2016.07.26-11.09.33:264][  0]MapCheck: New page: Map Check
-[2016.07.26-11.09.33:264][  0]LightingResults: New page: Lighting Build
-[2016.07.26-11.09.35:220][  0]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.26-11.09.35:278][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.26-11.09.35:283][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.26-11.09.35:378][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.063ms to complete.
-[2016.07.26-11.09.35:379][  0]LogFileHelpers: Loading map 'UptimeLevel' took 2.121
-[2016.07.26-11.09.35:692][  0]LogCollectionManager: Loaded 0 collections in 0.002959 seconds
-[2016.07.26-11.09.35:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Collections/' took 0.02s
-[2016.07.26-11.09.35:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Developers/Risukun/Collections/' took 0.01s
-[2016.07.26-11.09.35:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Collections/' took 0.01s
-[2016.07.26-11.09.35:728][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000020 seconds
-[2016.07.26-11.09.35:743][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 1979 classes and 343 folders.
-[2016.07.26-11.09.35:748][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.07.26-11.09.35:748][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.07.26-11.09.35:749][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
-[2016.07.26-11.09.35:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.07.26-11.09.35:797][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.07.26-11.09.36:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2016.07.26-11.09.36:922][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.07.26-11.09.37:108][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.07.26-11.09.37:115][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.07.26-11.09.37:157][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.07.26-11.09.37:157][  0]LogLoad: Full Startup: 25.65 seconds (BP compile: 0.18 seconds)
-[2016.07.26-11.09.37:157][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.07.26-11.09.37:157][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.07.26-11.09.37:166][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.07.26-11.09.37:166][  0]LogOcInput: OculusInput pre-init called
-[2016.07.26-11.09.37:365][  0]LogContentStreaming: Texture pool size now 200 MB
-[2016.07.26-11.09.37:650][  0]LogRenderer: Reallocating scene render targets to support 980x500 (Frame:2).
-[2016.07.26-11.09.38:038][  2]LogAssetRegistry: Asset discovery search completed in 9.1492 seconds
-[2016.07.26-11.09.38:038][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2016.07.26-11.09.38:038][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
-[2016.07.26-11.09.53:347][569]LogEditorViewport: Clicking on Actor (LMB): MaleSpawner_C (MaleSpawner)
-[2016.07.26-11.09.56:920][611]LogEditorViewport: Clicking on Actor (context menu): MaleSpawner_C (MaleSpawner)
-[2016.07.26-11.10.02:461][899]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 108 classes and 0 folders.
-[2016.07.26-11.10.08:158][955]LogEditorViewport: Clicking on Actor (context menu): BossSpawner_C (BossSpawner)
-[2016.07.26-11.10.13:804][ 54]LogEditorViewport: Clicking on Actor (context menu): FemaleSpawner_C (FemaleSpawner)
-[2016.07.26-11.10.27:995][335]BlueprintLog: New page: Compile FemaleSpawner
-[2016.07.26-11.10.28:118][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.10.28:915][335]BlueprintEditorCompileResults: Info [0077.39] Compile of FemaleSpawner successful! [in 902 ms]
-[2016.07.26-11.10.29:888][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/FemaleSpawner" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleSpawner.uasset" SILENT=true
-[2016.07.26-11.10.30:069][346]LogSavePackage: Save=124.15ms
-[2016.07.26-11.10.30:069][346]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleSpawner7E4E47784754C38A655CAC8FB78DC1B8.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleSpawner.uasset'
-[2016.07.26-11.10.30:120][346]LogSavePackage: Total save time: 219.98ms
-[2016.07.26-11.10.30:120][346]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleSpawner.uasset
-[2016.07.26-11.10.38:585][488]BlueprintLog: New page: Compile BossSpawner
-[2016.07.26-11.10.38:989][488]BlueprintEditorCompileResults: Info [0087.48] Compile of BossSpawner successful! [in 403 ms]
-[2016.07.26-11.10.39:789][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/BossSpawner" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossSpawner.uasset" SILENT=true
-[2016.07.26-11.10.39:855][500]LogSavePackage: Save=53.83ms
-[2016.07.26-11.10.39:855][500]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossSpawnerAEF430F34A33D175031BA69F6856A660.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossSpawner.uasset'
-[2016.07.26-11.10.39:859][500]LogSavePackage: Total save time: 68.41ms
-[2016.07.26-11.10.39:859][500]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossSpawner.uasset
-[2016.07.26-11.10.49:805][708]BlueprintLog: New page: Compile MaleSpawner
-[2016.07.26-11.10.50:181][708]BlueprintEditorCompileResults: Info [0098.67] Compile of MaleSpawner successful! [in 375 ms]
-[2016.07.26-11.10.50:897][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleSpawner" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleSpawner.uasset" SILENT=true
-[2016.07.26-11.10.50:965][718]LogSavePackage: Save=54.42ms
-[2016.07.26-11.10.50:965][718]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleSpawnerEC96EE7845642155BDDCD18E71CFDD77.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleSpawner.uasset'
-[2016.07.26-11.10.50:969][718]LogSavePackage: Total save time: 68.81ms
-[2016.07.26-11.10.50:969][718]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleSpawner.uasset
-[2016.07.26-11.13.00:227][478]LogRenderer: Reallocating scene render targets to support 980x848 (Frame:3469).
-[2016.07.26-11.13.14:579][719]LogRenderer: Reallocating scene render targets to support 980x884 (Frame:3841).
-[2016.07.26-11.13.14:579][719]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2016.07.26-11.13.19:606][774]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2016.07.26-11.15.58:857][192]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2016.07.26-11.22.09:409][271]BlueprintLog: New page: Compile BossAnimBP
-[2016.07.26-11.22.10:113][271]BlueprintEditorCompileResults: Info [0778.60] Compile of BossAnimBP successful! [in 703 ms]
-[2016.07.26-11.22.11:995][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/Boss/BossAnimBP" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossAnimBP.uasset" SILENT=true
-[2016.07.26-11.22.12:095][294]LogSavePackage: Save=98.45ms
-[2016.07.26-11.22.12:095][294]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossAnimBPFE60D9634B1A2C46EE3ECD99DAD59164.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossAnimBP.uasset'
-[2016.07.26-11.22.12:098][294]LogSavePackage: Total save time: 101.83ms
-[2016.07.26-11.22.12:098][294]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/Boss/BossAnimBP.uasset
-[2016.07.26-11.23.09:167][  5]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.07.26-11.23.11:953][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.23.11:953][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2016.07.26-11.23.11:953][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2016.07.26-11.23.14:083][145]BlueprintLog: New page: Compile BossClass
-[2016.07.26-11.23.14:181][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2016.07.26-11.23.14:481][145]BlueprintEditorCompileResults: Info [0842.97] Compile of BossClass successful! [in 398 ms]
-[2016.07.26-11.23.15:071][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/BossClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset" SILENT=true
-[2016.07.26-11.23.15:128][154]LogSavePackage: Save=39.89ms
-[2016.07.26-11.23.15:128][154]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossClass0ACDA9DF4377C17F1D7524AC69EA24B7.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset'
-[2016.07.26-11.23.15:132][154]LogSavePackage: Total save time: 59.16ms
-[2016.07.26-11.23.15:132][154]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset
-[2016.07.26-11.23.25:769][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.26-11.23.25:920][313]PIE: New page: SIE session: UptimeLevel (Jul 27, 2016, 7:23:25 AM)
-[2016.07.26-11.23.25:926][313]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
-[2016.07.26-11.23.26:103][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176748s)
-[2016.07.26-11.23.26:104][313]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.26-11.23.26:105][313]LogPlayLevel: PIE: World Init took: (0.001236s)
-[2016.07.26-11.23.26:116][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.189843s)
-[2016.07.26-11.23.26:116][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.23.26:182][313]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.23.26:193][313]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.26-11.23.26:205][313]LogInit: FAudioDevice initialized.
-[2016.07.26-11.23.26:516][313]LogWorld: Game class is 'UptimeGameMode_C'
-[2016.07.26-11.23.26:645][313]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.07.26-21.23.26
-[2016.07.26-11.23.26:674][313]LogWorld: Bringing up level for play took: 0.157131
-[2016.07.26-11.23.26:723][313]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.07.26-11.23.26:832][313]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 9 classes and 0 folders.
-[2016.07.26-11.23.26:875][313]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel 0.822
-[2016.07.26-11.23.26:961][313]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.28.51:113][ 13]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2016.07.26-11.29.09:433][579]BlueprintLog: New page: Compile FemaleAnimBP
-[2016.07.26-11.29.09:483][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.29.09:484][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2016.07.26-11.29.09:484][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2016.07.26-11.29.09:916][579]BlueprintEditorCompileResults: Info [1198.41] Compile of FemaleAnimBP successful! [in 481 ms]
-[2016.07.26-11.29.12:102][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerFemale/FemaleAnimBP" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/FemaleAnimBP.uasset" SILENT=true
-[2016.07.26-11.29.12:176][643]LogSavePackage: Save=72.14ms
-[2016.07.26-11.29.12:176][643]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleAnimBP2BD3D7B8475E56FCE94095BE6243A36B.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/FemaleAnimBP.uasset'
-[2016.07.26-11.29.12:179][643]LogSavePackage: Total save time: 75.31ms
-[2016.07.26-11.29.12:179][643]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerFemale/FemaleAnimBP.uasset
-[2016.07.26-11.29.24:114][984]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.07.26-11.29.28:714][138]BlueprintLog: New page: Compile FemaleWorkerClass
-[2016.07.26-11.29.28:782][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.29.29:094][138]BlueprintEditorCompileResults: Info [1217.58] Compile of FemaleWorkerClass successful! [in 379 ms]
-[2016.07.26-11.29.29:639][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/FemaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.29.29:696][157]LogSavePackage: Save=40.05ms
-[2016.07.26-11.29.29:696][157]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleWorkerClass1688838D4972DA22D39189A269CCB70E.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset'
-[2016.07.26-11.29.29:699][157]LogSavePackage: Total save time: 58.14ms
-[2016.07.26-11.29.29:699][157]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset
-[2016.07.26-11.31.48:940][802]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2016.07.26-11.32.08:945][413]BlueprintLog: New page: Compile MaleAnimBP
-[2016.07.26-11.32.08:977][413]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.32.09:223][413]BlueprintEditorCompileResults: Info [1377.71] Compile of MaleAnimBP successful! [in 278 ms]
-[2016.07.26-11.32.10:729][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPCs/OfficeWorkerMale/MaleAnimBP" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/MaleAnimBP.uasset" SILENT=true
-[2016.07.26-11.32.10:806][455]LogSavePackage: Save=74.84ms
-[2016.07.26-11.32.10:806][455]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleAnimBP517B9921487F87DFD5C1A2BDAFA1F1A7.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/MaleAnimBP.uasset'
-[2016.07.26-11.32.10:809][455]LogSavePackage: Total save time: 78.02ms
-[2016.07.26-11.32.10:809][455]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/NPCs/OfficeWorkerMale/MaleAnimBP.uasset
-[2016.07.26-11.32.21:546][752]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.07.26-11.32.26:014][898]BlueprintLog: New page: Compile MaleWorkerClass
-[2016.07.26-11.32.26:083][898]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.32.26:401][898]BlueprintEditorCompileResults: Info [1394.89] Compile of MaleWorkerClass successful! [in 387 ms]
-[2016.07.26-11.32.27:008][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.32.27:065][918]LogSavePackage: Save=39.76ms
-[2016.07.26-11.32.27:065][918]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass371367BE44EEB91426978A9FE0278A0D.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.26-11.32.27:068][918]LogSavePackage: Total save time: 58.62ms
-[2016.07.26-11.32.27:068][918]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset
-[2016.07.26-11.32.34:127][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.26-11.32.34:127][143]PIE: New page: SIE session: UptimeLevel (Jul 27, 2016, 7:32:34 AM)
-[2016.07.26-11.32.34:127][143]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
-[2016.07.26-11.32.34:475][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.348023s)
-[2016.07.26-11.32.34:477][143]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.26-11.32.34:477][143]LogPlayLevel: PIE: World Init took: (0.002591s)
-[2016.07.26-11.32.34:479][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.351423s)
-[2016.07.26-11.32.34:479][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.32.34:558][143]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.32.34:563][143]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.26-11.32.34:576][143]LogInit: FAudioDevice initialized.
-[2016.07.26-11.32.34:639][143]LogWorld: Game class is 'UptimeGameMode_C'
-[2016.07.26-11.32.34:720][143]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.07.26-21.32.34
-[2016.07.26-11.32.34:724][143]LogWorld: Bringing up level for play took: 0.084142
-[2016.07.26-11.32.34:725][143]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.07.26-11.32.34:727][143]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel 0.675
-[2016.07.26-11.32.34:742][143]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.33.55:463][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.33.55:463][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2016.07.26-11.33.55:463][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2016.07.26-11.33.55:840][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2016.07.26-11.33.55:952][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/UptimeLevel" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/Maps/UptimeLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.07.26-11.33.56:713][ 13]LogSavePackage: Save=728.81ms
-[2016.07.26-11.33.56:713][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UptimeLevel_Auto1F21034D64FF6D779EABE4497F65920F6.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/Maps/UptimeLevel_Auto1.umap'
-[2016.07.26-11.33.56:716][ 13]LogSavePackage: Total save time: 756.66ms
-[2016.07.26-11.33.56:716][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/Maps/UptimeLevel_Auto1.umap
-[2016.07.26-11.33.56:721][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/UptimeLevel' took 0.880
-[2016.07.26-11.33.56:721][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.880
-[2016.07.26-11.33.56:736][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/MaleWorkerClass] ([1] browsable assets)...
-[2016.07.26-11.33.56:758][ 13]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/MaleWorkerClass.MaleWorkerClass]
-[2016.07.26-11.33.56:758][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/MaleWorkerClass]
-[2016.07.26-11.33.56:810][ 13]LogSavePackage: Save=40.24ms
-[2016.07.26-11.33.56:810][ 13]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass_Auto1CEEDD5B141B36E251BE4E3AD5B0F607F.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/MaleWorkerClass_Auto1.uasset'
-[2016.07.26-11.33.56:811][ 13]LogSavePackage: Total save time: 51.26ms
-[2016.07.26-11.33.56:811][ 13]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Autosaves/Game/StarterContent/Blueprints/MaleWorkerClass_Auto1.uasset
-[2016.07.26-11.33.56:811][ 13]LogFileHelpers: Auto-saving content packages took 0.084
-[2016.07.26-11.33.57:594][ 30]BlueprintLog: New page: Compile MaleWorkerClass
-[2016.07.26-11.33.57:638][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.33.57:957][ 30]BlueprintEditorCompileResults: Info [1486.45] Compile of MaleWorkerClass successful! [in 363 ms]
-[2016.07.26-11.33.58:754][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.33.58:805][ 48]LogSavePackage: Save=39.33ms
-[2016.07.26-11.33.58:805][ 48]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass496B5F824C77886ED7FF1AA06BA298B0.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.26-11.33.58:809][ 48]LogSavePackage: Total save time: 53.00ms
-[2016.07.26-11.33.58:809][ 48]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset
-[2016.07.26-11.34.09:879][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.34.11:805][357]BlueprintLog: New page: Compile FemaleWorkerClass
-[2016.07.26-11.34.11:876][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2016.07.26-11.34.12:212][357]BlueprintEditorCompileResults: Info [1500.70] Compile of FemaleWorkerClass successful! [in 406 ms]
-[2016.07.26-11.34.12:928][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/FemaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.34.12:980][375]LogSavePackage: Save=38.36ms
-[2016.07.26-11.34.12:980][375]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleWorkerClass20A9C3D54BBBE9930CB522A6E2DB2ED1.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset'
-[2016.07.26-11.34.12:983][375]LogSavePackage: Total save time: 52.85ms
-[2016.07.26-11.34.12:983][375]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset
-[2016.07.26-11.34.21:741][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.34.22:821][610]BlueprintLog: New page: Compile BossClass
-[2016.07.26-11.34.22:868][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2016.07.26-11.34.23:199][610]BlueprintEditorCompileResults: Info [1511.69] Compile of BossClass successful! [in 377 ms]
-[2016.07.26-11.34.23:683][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/BossClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset" SILENT=true
-[2016.07.26-11.34.23:736][623]LogSavePackage: Save=39.81ms
-[2016.07.26-11.34.23:736][623]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/BossClass77195BE245A6D11156E71797ABE20A0B.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset'
-[2016.07.26-11.34.23:739][623]LogSavePackage: Total save time: 54.40ms
-[2016.07.26-11.34.23:739][623]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/BossClass.uasset
-[2016.07.26-11.34.26:033][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/FemaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.34.26:074][680]LogSavePackage: Save=29.10ms
-[2016.07.26-11.34.26:074][680]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/FemaleWorkerClass2C59C52C4A3F96E0094DAFABDDFFD55F.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset'
-[2016.07.26-11.34.26:076][680]LogSavePackage: Total save time: 41.77ms
-[2016.07.26-11.34.26:076][680]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/FemaleWorkerClass.uasset
-[2016.07.26-11.34.28:472][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.34.28:515][740]LogSavePackage: Save=30.82ms
-[2016.07.26-11.34.28:515][740]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClassFB3018BC41BDFFD9ECEA39A651322D29.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.26-11.34.28:516][740]LogSavePackage: Total save time: 42.75ms
-[2016.07.26-11.34.28:516][740]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset
-[2016.07.26-11.34.30:984][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.26-11.34.30:984][806]PIE: New page: SIE session: UptimeLevel (Jul 27, 2016, 7:34:30 AM)
-[2016.07.26-11.34.30:985][806]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
-[2016.07.26-11.34.31:068][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083203s)
-[2016.07.26-11.34.31:069][806]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.26-11.34.31:069][806]LogPlayLevel: PIE: World Init took: (0.001679s)
-[2016.07.26-11.34.31:069][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.085484s)
-[2016.07.26-11.34.31:070][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.34.31:143][806]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.34.31:147][806]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.26-11.34.31:158][806]LogInit: FAudioDevice initialized.
-[2016.07.26-11.34.31:191][806]LogWorld: Game class is 'UptimeGameMode_C'
-[2016.07.26-11.34.31:256][806]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.07.26-21.34.31
-[2016.07.26-11.34.31:260][806]LogWorld: Bringing up level for play took: 0.068112
-[2016.07.26-11.34.31:261][806]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.07.26-11.34.31:262][806]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel 1.21
-[2016.07.26-11.34.31:273][806]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.35.23:685][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.35.23:685][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
-[2016.07.26-11.35.23:685][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
-[2016.07.26-11.35.25:278][148]BlueprintLog: New page: Compile MaleWorkerClass
-[2016.07.26-11.35.25:320][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
-[2016.07.26-11.35.25:630][148]BlueprintEditorCompileResults: Info [1574.12] Compile of MaleWorkerClass successful! [in 351 ms]
-[2016.07.26-11.35.26:120][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.35.26:173][161]LogSavePackage: Save=38.45ms
-[2016.07.26-11.35.26:173][161]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass3A68146041DF92721AF021A3563A57A1.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.26-11.35.26:176][161]LogSavePackage: Total save time: 53.80ms
-[2016.07.26-11.35.26:176][161]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset
-[2016.07.26-11.35.28:987][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.26-11.35.28:988][234]PIE: New page: SIE session: UptimeLevel (Jul 27, 2016, 7:35:28 AM)
-[2016.07.26-11.35.28:988][234]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
-[2016.07.26-11.35.29:077][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089404s)
-[2016.07.26-11.35.29:078][234]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.26-11.35.29:079][234]LogPlayLevel: PIE: World Init took: (0.001618s)
-[2016.07.26-11.35.29:079][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.091658s)
-[2016.07.26-11.35.29:079][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.35.29:155][234]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.35.29:159][234]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.26-11.35.29:170][234]LogInit: FAudioDevice initialized.
-[2016.07.26-11.35.29:208][234]LogWorld: Game class is 'UptimeGameMode_C'
-[2016.07.26-11.35.29:271][234]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.07.26-21.35.29
-[2016.07.26-11.35.29:275][234]LogWorld: Bringing up level for play took: 0.065335
-[2016.07.26-11.35.29:276][234]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.07.26-11.35.29:277][234]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel 1.224
-[2016.07.26-11.35.29:288][234]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.36.08:185][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.36.08:186][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
-[2016.07.26-11.36.08:186][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
-[2016.07.26-11.36.09:005][887]BlueprintLog: New page: Compile MaleWorkerClass
-[2016.07.26-11.36.09:055][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
-[2016.07.26-11.36.09:367][887]BlueprintEditorCompileResults: Info [1617.86] Compile of MaleWorkerClass successful! [in 361 ms]
-[2016.07.26-11.36.09:872][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MaleWorkerClass" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset" SILENT=true
-[2016.07.26-11.36.09:927][896]LogSavePackage: Save=41.21ms
-[2016.07.26-11.36.09:927][896]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/MaleWorkerClass3C5A61B64B6A8367073A9889F8EB3717.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset'
-[2016.07.26-11.36.09:930][896]LogSavePackage: Total save time: 56.55ms
-[2016.07.26-11.36.09:930][896]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/StarterContent/Blueprints/MaleWorkerClass.uasset
-[2016.07.26-11.36.18:916][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.26-11.36.18:916][ 46]PIE: New page: SIE session: UptimeLevel (Jul 27, 2016, 7:36:18 AM)
-[2016.07.26-11.36.18:917][ 46]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
-[2016.07.26-11.36.18:999][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082335s)
-[2016.07.26-11.36.19:001][ 46]LogAIModule: Creating AISystem for world UptimeLevel
-[2016.07.26-11.36.19:001][ 46]LogPlayLevel: PIE: World Init took: (0.002013s)
-[2016.07.26-11.36.19:002][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.085024s)
-[2016.07.26-11.36.19:002][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.36.19:075][ 46]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.36.19:080][ 46]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.26-11.36.19:091][ 46]LogInit: FAudioDevice initialized.
-[2016.07.26-11.36.19:124][ 46]LogWorld: Game class is 'UptimeGameMode_C'
-[2016.07.26-11.36.19:185][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.07.26-21.36.19
-[2016.07.26-11.36.19:189][ 46]LogWorld: Bringing up level for play took: 0.064219
-[2016.07.26-11.36.19:190][ 46]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.07.26-11.36.19:191][ 46]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel 1.139
-[2016.07.26-11.36.19:202][ 46]LogSelection:Warning: PIE object was selected: "FemaleSpawner_C /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleSpawner_87"
-[2016.07.26-11.37.05:008][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.07.26-11.37.13:957][412]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.07.26-11.37.15:441][450]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.07.26-11.37.16:883][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.07.26-11.37.18:278][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.07.26-11.37.22:770][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.07.26-11.37.22:770][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
-[2016.07.26-11.37.22:770][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
-[2016.07.26-11.37.24:416][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/UptimeLevel" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.07.26-11.37.25:143][730]LogSavePackage: Save=651.29ms
-[2016.07.26-11.37.25:143][730]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UptimeLevelD937AEEF4CF64C49EF9BED87D7A42D73.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap'
-[2016.07.26-11.37.25:148][730]LogSavePackage: Total save time: 666.62ms
-[2016.07.26-11.37.25:148][730]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap
-[2016.07.26-11.37.25:227][730]LogFileHelpers: Saving map 'UptimeLevel' took 2.092
-[2016.07.26-11.37.33:176][ 44]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.07.26-11.37.33:711][ 45]Cmd: QUIT_EDITOR
-[2016.07.26-11.37.34:910][ 45]LogExit: Preparing to exit.
-[2016.07.26-11.37.36:200][ 45]LogExit: Editor shut down
-[2016.07.26-11.37.36:203][ 45]LogExit: Transaction tracking system shut down
-[2016.07.26-11.37.38:206][ 45]LogObj: Freed 0b from 0 cluster array pools.
-[2016.07.26-11.37.38:207][ 45]LogExit: Object subsystem successfully closed.
-[2016.07.26-11.37.38:430][ 45]LogD3D11RHI: Shutdown
-[2016.07.26-11.37.38:430][ 45]LogD3D11RHI: CleanupD3DDevice
-[2016.07.26-11.37.38:611][ 45]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.07.26-11.37.38:708][ 45]LogDerivedDataCache: Shutdown
-[2016.07.26-11.37.39:445][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
-[2016.07.26-11.37.39:473][ 45]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
-[2016.07.26-11.37.39:473][ 45]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
-[2016.07.26-11.37.39:481][ 45]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
-[2016.07.26-11.37.39:482][ 45]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
-[2016.07.26-11.37.39:487][ 45]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
-[2016.07.26-11.37.39:487][ 45]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
-[2016.07.26-11.37.39:487][ 45]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
-[2016.07.26-11.37.39:515][ 45]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
-[2016.07.26-11.37.39:515][ 45]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
-[2016.07.26-11.37.39:515][ 45]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
-[2016.07.26-11.37.39:527][ 45]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
-[2016.07.26-11.37.39:543][ 45]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
-[2016.07.26-11.37.39:556][ 45]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module BspMode (189)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
-[2016.07.26-11.37.39:575][ 45]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
-[2016.07.26-11.37.39:618][ 45]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
-[2016.07.26-11.37.39:643][ 45]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
-[2016.07.26-11.37.39:667][ 45]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
-[2016.07.26-11.37.39:667][ 45]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
-[2016.07.26-11.37.39:679][ 45]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
-[2016.07.26-11.37.39:679][ 45]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
-[2016.07.26-11.37.40:659][ 45]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
-[2016.07.26-11.37.40:659][ 45]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
-[2016.07.26-11.37.40:659][ 45]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
-[2016.07.26-11.37.40:659][ 45]LogModuleManager: Shutting down and abandoning module MergeActors (173)
-[2016.07.26-11.37.40:724][ 45]LogModuleManager: Shutting down and abandoning module SizeMap (172)
-[2016.07.26-11.37.40:732][ 45]LogModuleManager: Shutting down and abandoning module TreeMap (171)
-[2016.07.26-11.37.40:746][ 45]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
-[2016.07.26-11.37.40:758][ 45]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
-[2016.07.26-11.37.40:770][ 45]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
-[2016.07.26-11.37.40:781][ 45]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
-[2016.07.26-11.37.40:781][ 45]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
-[2016.07.26-11.37.40:793][ 45]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
-[2016.07.26-11.37.40:801][ 45]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
-[2016.07.26-11.37.40:801][ 45]LogModuleManager: Shutting down and abandoning module XmlParser (163)
-[2016.07.26-11.37.40:806][ 45]LogModuleManager: Shutting down and abandoning module Blutility (162)
-[2016.07.26-11.37.40:817][ 45]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
-[2016.07.26-11.37.40:818][ 45]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
-[2016.07.26-11.37.40:818][ 45]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
-[2016.07.26-11.37.40:841][ 45]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
-[2016.07.26-11.37.40:842][ 45]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
-[2016.07.26-11.37.40:946][ 45]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
-[2016.07.26-11.37.40:967][ 45]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
-[2016.07.26-11.37.40:981][ 45]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
-[2016.07.26-11.37.40:996][ 45]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
-[2016.07.26-11.37.40:996][ 45]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
-[2016.07.26-11.37.41:054][ 45]LogModuleManager: Shutting down and abandoning module AutomationController (151)
-[2016.07.26-11.37.41:066][ 45]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
-[2016.07.26-11.37.41:093][ 45]LogModuleManager: Shutting down and abandoning module Layers (149)
-[2016.07.26-11.37.41:110][ 45]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
-[2016.07.26-11.37.41:110][ 45]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
-[2016.07.26-11.37.41:135][ 45]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
-[2016.07.26-11.37.41:147][ 45]LogModuleManager: Shutting down and abandoning module Persona (145)
-[2016.07.26-11.37.41:163][ 45]LogModuleManager: Shutting down and abandoning module Kismet (144)
-[2016.07.26-11.37.41:180][ 45]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
-[2016.07.26-11.37.41:180][ 45]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
-[2016.07.26-11.37.41:183][ 45]LogModuleManager: Shutting down and abandoning module Toolbox (141)
-[2016.07.26-11.37.41:192][ 45]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
-[2016.07.26-11.37.41:209][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
-[2016.07.26-11.37.41:227][ 45]LogModuleManager: Shutting down and abandoning module OutputLog (138)
-[2016.07.26-11.37.41:244][ 45]LogModuleManager: Shutting down and abandoning module GammaUI (137)
-[2016.07.26-11.37.41:254][ 45]LogModuleManager: Shutting down and abandoning module Documentation (136)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module Analytics (133)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module PortalServices (132)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
-[2016.07.26-11.37.41:255][ 45]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
-[2016.07.26-11.37.41:271][ 45]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
-[2016.07.26-11.37.41:278][ 45]LogModuleManager: Shutting down and abandoning module AIModule (127)
-[2016.07.26-11.37.41:278][ 45]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
-[2016.07.26-11.37.41:295][ 45]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module SteamVR (122)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module OculusInput (119)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module CableComponent (117)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
-[2016.07.26-11.37.41:313][ 45]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
-[2016.07.26-11.37.41:336][ 45]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
-[2016.07.26-11.37.41:336][ 45]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
-[2016.07.26-11.37.41:336][ 45]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
-[2016.07.26-11.37.41:356][ 45]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
-[2016.07.26-11.37.41:365][ 45]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
-[2016.07.26-11.37.41:377][ 45]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
-[2016.07.26-11.37.41:389][ 45]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
-[2016.07.26-11.37.41:389][ 45]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
-[2016.07.26-11.37.41:397][ 45]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
-[2016.07.26-11.37.41:410][ 45]LogModuleManager: Shutting down and abandoning module SourceControl (105)
-[2016.07.26-11.37.41:420][ 45]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
-[2016.07.26-11.37.41:433][ 45]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
-[2016.07.26-11.37.41:434][ 45]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
-[2016.07.26-11.37.41:447][ 45]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
-[2016.07.26-11.37.41:448][ 45]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
-[2016.07.26-11.37.41:460][ 45]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.07.26-11.37.41:521][ 45]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.07.26-11.37.41:521][ 45]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.07.26-11.37.41:538][ 45]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
-[2016.07.26-11.37.41:546][ 45]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
-[2016.07.26-11.37.41:921][ 45]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
-[2016.07.26-11.37.41:925][ 45]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
-[2016.07.26-11.37.41:948][ 45]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
-[2016.07.26-11.37.42:053][ 45]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.07.26-11.37.42:053][ 45]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.07.26-11.37.42:065][ 45]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.07.26-11.37.42:076][ 45]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.07.26-11.37.42:076][ 45]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.07.26-11.37.42:087][ 45]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.07.26-11.37.42:104][ 45]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.07.26-11.37.42:104][ 45]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.07.26-11.37.42:125][ 45]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.07.26-11.37.42:125][ 45]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.07.26-11.37.42:125][ 45]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.07.26-11.37.42:149][ 45]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.07.26-11.37.42:167][ 45]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.07.26-11.37.42:202][ 45]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.07.26-11.37.42:214][ 45]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.07.26-11.37.42:252][ 45]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.07.26-11.37.42:252][ 45]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.07.26-11.37.42:278][ 45]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.07.26-11.37.42:289][ 45]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.07.26-11.37.42:314][ 45]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.07.26-11.37.42:314][ 45]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.07.26-11.37.42:314][ 45]LogDerivedDataCache: Shutdown
-[2016.07.26-11.37.42:314][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.07.26-11.37.42:329][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.07.26-11.37.42:344][ 45]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.07.26-11.37.42:360][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.07.26-11.37.42:360][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.07.26-11.37.42:368][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.07.26-11.37.42:379][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.07.26-11.37.42:388][ 45]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.07.26-11.37.42:388][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.07.26-11.37.42:388][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.07.26-11.37.42:388][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.07.26-11.37.42:395][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.07.26-11.37.42:418][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.07.26-11.37.42:430][ 45]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.07.26-11.37.42:430][ 45]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.07.26-11.37.42:444][ 45]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.07.26-11.37.42:453][ 45]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.07.26-11.37.42:453][ 45]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.07.26-11.37.42:453][ 45]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.07.26-11.37.42:453][ 45]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.07.26-11.37.42:453][ 45]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.07.26-11.37.42:453][ 45]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.07.26-11.37.42:459][ 45]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.07.26-11.37.42:468][ 45]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.07.26-11.37.42:473][ 45]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.07.26-11.37.42:476][ 45]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.07.26-11.37.42:476][ 45]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.07.26-11.37.42:477][ 45]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.07.26-11.37.42:477][ 45]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.07.26-11.37.42:477][ 45]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.07.26-11.37.42:477][ 45]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.07.26-11.37.43:480][ 45]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.07.26-11.37.43:536][ 45]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.07.26-11.37.43:546][ 45]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.07.26-11.37.43:546][ 45]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.07.26-11.37.43:558][ 45]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.07.26-11.37.43:558][ 45]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.07.26-11.37.43:558][ 45]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.07.26-11.37.43:587][ 45]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.07.26-11.37.43:608][ 45]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.07.26-11.37.43:608][ 45]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.07.26-11.37.43:608][ 45]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.07.26-11.37.43:608][ 45]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.07.26-11.37.43:608][ 45]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.07.26-11.37.43:608][ 45]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.07.26-11.37.43:626][ 45]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.07.26-11.37.43:639][ 45]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.07.26-11.37.43:649][ 45]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.07.26-11.37.43:677][ 45]LogExit: Exiting.
-[2016.07.26-11.37.43:692][ 45]Log file closed, 07/26/16 21:37:43
+[2016.08.14-03.30.02:182][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.14-03.30.02:182][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.14-03.30.02:194][  0]LogInit: Computer: RISUKUN-PC
+[2016.08.14-03.30.02:194][  0]LogInit: User: Risukun
+[2016.08.14-03.30.02:194][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.08.14-03.30.02:194][  0]LogInit: High frequency timer resolution =2.929355 MHz
+[2016.08.14-03.30.02:194][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.08.14-03.30.02:194][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.14-03.30.02:194][  0]LogMemory: Process Physical Memory: 312.33 MB used, 312.33 MB peak
+[2016.08.14-03.30.02:194][  0]LogMemory: Process Virtual Memory: 314.35 MB used, 314.35 MB peak
+[2016.08.14-03.30.02:194][  0]LogMemory: Physical Memory: 2702.63 MB used, 4094.49 MB total
+[2016.08.14-03.30.02:194][  0]LogMemory: Virtual Memory: 646.12 MB used, 134217728.00 MB total
+[2016.08.14-03.30.02:241][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.14-03.30.02:891][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.14-03.30.02:926][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 9600 GT' (Feature Level 10_0)
+[2016.08.14-03.30.02:926][  0]LogD3D11RHI:       999MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2016.08.14-03.30.02:929][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.14-03.30.02:929][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2016.08.14-03.30.02:929][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.14-03.30.02:940][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.14-03.30.02:940][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 9600 GT
+[2016.08.14-03.30.02:940][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.08.14-03.30.02:940][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.14-03.30.02:940][  0]LogRHI: Texture pool is 699 MB (70% of 999 MB)
+[2016.08.14-03.30.02:952][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.14-03.30.02:970][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/Risukun/Documents/GitHub/Uptime/Intermediate/Shaders/WorkingDirectory/19304/).
+[2016.08.14-03.30.02:970][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Risukun/AppData/Local/Temp/UnrealShaderWorkingDir/17EE0BAE4527685A73700BA4AB61D486/'.
+[2016.08.14-03.30.02:971][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.14-03.30.04:516][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.14-03.30.04:523][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.14-03.30.04:530][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.14-03.30.04:538][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.14-03.30.04:545][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.14-03.30.04:550][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.14-03.30.04:556][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.14-03.30.04:562][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.14-03.30.04:567][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.14-03.30.04:572][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.14-03.30.04:577][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.14-03.30.04:587][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.14-03.30.04:587][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.14-03.30.04:588][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.14-03.30.04:609][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.14-03.30.04:614][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.14-03.30.04:618][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.14-03.30.04:623][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.14-03.30.04:628][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.14-03.30.04:628][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.14-03.30.04:731][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.14-03.30.04:864][  0]LogDerivedDataCache: Loaded boot cache 0.13s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.14-03.30.04:864][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.14-03.30.04:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.14-03.30.04:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.14-03.30.04:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Risukun/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.14-03.30.04:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.14-03.30.04:892][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.14-03.30.04:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Risukun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.14-03.30.05:175][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.14-03.30.05:176][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.14-03.30.05:237][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.14-03.30.05:405][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.14-03.30.05:405][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.14-03.30.05:405][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.14-03.30.05:890][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.08.14-03.30.05:890][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.08.14-03.30.05:890][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.14-03.30.05:900][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.14-03.30.06:024][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.14-03.30.06:024][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.14-03.30.06:175][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.14-03.30.06:175][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.14-03.30.06:175][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.14-03.30.06:175][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.14-03.30.06:175][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.14-03.30.06:175][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.14-03.30.07:024][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.14-03.30.07:151][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2016.08.14-03.30.07:370][  0]SourceControl: Info Source control is disabled
+[2016.08.14-03.30.07:521][  0]SourceControl: Info Source control is disabled
+[2016.08.14-03.30.07:534][  0]SourceControl: Info Source control is disabled
+[2016.08.14-03.30.07:547][  0]SourceControl: Info Source control is disabled
+[2016.08.14-03.30.07:726][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.08.14-03.30.07:853][  0]LogEngine: Initializing Engine...
+[2016.08.14-03.30.08:051][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.14-03.30.08:060][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.14-03.30.08:077][  0]LogInit: FAudioDevice initialized.
+[2016.08.14-03.30.08:125][  0]LogDerivedDataCache: Saved boot cache 0.05s 40MB C:/Users/Risukun/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.14-03.30.08:146][  0]LogInit: Texture streaming: Enabled
+[2016.08.14-03.30.08:182][  0]LogInit: Transaction tracking system initialized
+[2016.08.14-03.30.08:215][  0]BlueprintLog: New page: Editor Load
+[2016.08.14-03.30.08:318][  0]LocalizationService: Info Localization service is disabled
+[2016.08.14-03.30.08:556][  0]LogConsoleResponse:Display: 
+[2016.08.14-03.30.08:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/' took 0.02s
+[2016.08.14-03.30.08:708][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.14-03.30.08:708][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.14-03.30.08:708][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.14-03.30.08:916][  0]SourceControl: Info Source control is disabled
+[2016.08.14-03.30.08:916][  0]Cmd: MAP LOAD FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.08.14-03.30.08:917][  0]LightingResults: New page: Lighting Build
+[2016.08.14-03.30.08:921][  0]MapCheck: New page: Map Check
+[2016.08.14-03.30.08:921][  0]LightingResults: New page: Lighting Build
+[2016.08.14-03.30.11:847][  0]LogAIModule: Creating AISystem for world UptimeLevel
+[2016.08.14-03.30.12:011][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.14-03.30.12:024][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.14-03.30.12:163][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.494ms to complete.
+[2016.08.14-03.30.12:163][  0]LogFileHelpers: Loading map 'UptimeLevel' took 3.246
+[2016.08.14-03.30.12:329][  0]LogCollectionManager: Loaded 0 collections in 0.002707 seconds
+[2016.08.14-03.30.12:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/Collections/' took 0.01s
+[2016.08.14-03.30.12:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Developers/Risukun/Collections/' took 0.01s
+[2016.08.14-03.30.12:370][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Collections/' took 0.01s
+[2016.08.14-03.30.12:370][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.08.14-03.30.12:384][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 1979 classes and 343 folders.
+[2016.08.14-03.30.12:389][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.14-03.30.12:389][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.14-03.30.12:390][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.08.14-03.30.12:397][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.08.14-03.30.12:405][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.08.14-03.30.12:469][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.08.14-03.30.12:475][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.08.14-03.30.12:580][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.14-03.30.12:589][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.14-03.30.12:618][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.08.14-03.30.12:618][  0]LogLoad: Full Startup: 11.54 seconds (BP compile: 0.43 seconds)
+[2016.08.14-03.30.12:618][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.14-03.30.12:618][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.14-03.30.12:628][  0]LogOcInput: OculusInput pre-init called
+[2016.08.14-03.30.12:696][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.08.14-03.30.13:047][  0]LogRenderer: Reallocating scene render targets to support 980x516 (Frame:2).
+[2016.08.14-03.30.13:334][  2]LogAssetRegistry: Asset discovery search completed in 6.2049 seconds
+[2016.08.14-03.30.13:334][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.08.14-03.30.13:334][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2016.08.14-03.31.13:726][611]LogEditorViewport: Clicking on Actor (LMB): BossSpawner_C (BossSpawner)
+[2016.08.14-03.32.10:406][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/UptimeLevel" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.14-03.32.19:396][910]LogSavePackage: Save=8468.71ms
+[2016.08.14-03.32.19:396][910]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/UptimeLevel25CE955949F3313386C8D1BDBE3B384C.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap'
+[2016.08.14-03.32.19:475][910]LogSavePackage: Total save time: 8974.31ms
+[2016.08.14-03.32.19:475][910]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/Maps/UptimeLevel.umap
+[2016.08.14-03.32.25:894][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.14-03.32.25:957][ 30]PIE: New page: PIE session: UptimeLevel (Aug 14, 2016, 11:32:25 PM)
+[2016.08.14-03.32.25:967][ 30]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
+[2016.08.14-03.32.26:195][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.228284s)
+[2016.08.14-03.32.26:200][ 30]LogAIModule: Creating AISystem for world UptimeLevel
+[2016.08.14-03.32.26:200][ 30]LogPlayLevel: PIE: World Init took: (0.005176s)
+[2016.08.14-03.32.26:201][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.235184s)
+[2016.08.14-03.32.26:254][ 30]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.14-03.32.26:266][ 30]LogInit: FAudioDevice initialized.
+[2016.08.14-03.32.27:098][ 30]LogWorld: Game class is 'UptimeGameMode_C'
+[2016.08.14-03.32.27:353][ 30]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.08.14-13.32.27
+[2016.08.14-03.32.27:447][ 30]LogWorld: Bringing up level for play took: 0.235852
+[2016.08.14-03.32.27:634][ 30]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.08.14-03.32.28:055][ 30]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel 3.002
+[2016.08.14-03.32.32:083][218]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1820.179 Y=1840.329 Z=25.973] for [MaleWorkerClass_C]
+[2016.08.14-03.32.32:136][218]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_7 IsPendingKill
+[2016.08.14-03.32.35:090][397]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-924.038 Y=226.000 Z=74.186] for [BossClass_C]
+[2016.08.14-03.32.35:090][397]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.BossClass_C_13 IsPendingKill
+[2016.08.14-03.32.35:092][397]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1157.722 Y=2017.803 Z=138.666] for [FemaleWorkerClass_C]
+[2016.08.14-03.32.35:092][397]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_13 IsPendingKill
+[2016.08.14-03.32.38:145][562]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1888.561 Y=-458.604 Z=108.449] for [FemaleWorkerClass_C]
+[2016.08.14-03.32.38:146][562]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_19 IsPendingKill
+[2016.08.14-03.32.43:592][829]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-3360.926 Y=-567.606 Z=92.407] for [MaleWorkerClass_C]
+[2016.08.14-03.32.43:593][829]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_30 IsPendingKill
+[2016.08.14-03.32.46:096][944]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1072.751 Y=-2788.419 Z=88.000] for [MaleWorkerClass_C]
+[2016.08.14-03.32.46:096][944]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_35 IsPendingKill
+[2016.08.14-03.32.47:585][ 13]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-3446.000 Y=-1023.584 Z=147.599] for [MaleWorkerClass_C]
+[2016.08.14-03.32.47:585][ 13]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_38 IsPendingKill
+[2016.08.14-03.32.53:075][155]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 108 classes and 0 folders.
+[2016.08.14-03.33.11:043][544]BlueprintLog: New page: Compile HUD
+[2016.08.14-03.33.11:625][544]BlueprintEditorCompileResults: Info [0190.48] Compile of HUD successful! [in 507 ms]
+[2016.08.14-03.33.14:409][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.14-03.33.14:409][629]PIE: New page: PIE session: UptimeLevel (Aug 14, 2016, 11:33:14 PM)
+[2016.08.14-03.33.14:410][629]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_UptimeLevel
+[2016.08.14-03.33.14:585][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.175467s)
+[2016.08.14-03.33.14:587][629]LogAIModule: Creating AISystem for world UptimeLevel
+[2016.08.14-03.33.14:587][629]LogPlayLevel: PIE: World Init took: (0.001867s)
+[2016.08.14-03.33.14:588][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UptimeLevel.UptimeLevel to /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel (0.178219s)
+[2016.08.14-03.33.14:659][629]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.14-03.33.14:670][629]LogInit: FAudioDevice initialized.
+[2016.08.14-03.33.14:706][629]LogWorld: Game class is 'UptimeGameMode_C'
+[2016.08.14-03.33.14:843][629]LogWorld: Bringing World /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel up for play (max tick rate 0) at 2016.08.14-13.33.14
+[2016.08.14-03.33.14:854][629]LogWorld: Bringing up level for play took: 0.147492
+[2016.08.14-03.33.14:862][629]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_UptimeLevel -0.19
+[2016.08.14-03.33.16:039][671]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-3914.297 Y=-1001.899 Z=88.487] for [BossClass_C]
+[2016.08.14-03.33.16:040][671]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.BossClass_C_23 IsPendingKill
+[2016.08.14-03.33.18:545][823]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-917.122 Y=-412.775 Z=88.100] for [MaleWorkerClass_C]
+[2016.08.14-03.33.18:545][823]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_48 IsPendingKill
+[2016.08.14-03.33.19:036][854]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=364.481 Y=8.481 Z=88.100] for [FemaleWorkerClass_C]
+[2016.08.14-03.33.19:036][854]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_35 IsPendingKill
+[2016.08.14-03.33.24:036][147]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1618.974 Y=2189.686 Z=88.023] for [FemaleWorkerClass_C]
+[2016.08.14-03.33.24:036][147]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_45 IsPendingKill
+[2016.08.14-03.33.25:538][230]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2490.000 Y=-2830.063 Z=18.951] for [FemaleWorkerClass_C]
+[2016.08.14-03.33.25:539][230]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_48 IsPendingKill
+[2016.08.14-03.33.26:033][257]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2067.366 Y=2966.001 Z=88.000] for [FemaleWorkerClass_C]
+[2016.08.14-03.33.26:033][257]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_49 IsPendingKill
+[2016.08.14-03.33.27:547][338]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1222.154 Y=2968.248 Z=85.497] for [MaleWorkerClass_C]
+[2016.08.14-03.33.27:547][338]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_66 IsPendingKill
+[2016.08.14-03.33.27:549][338]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=767.562 Y=2965.535 Z=94.707] for [FemaleWorkerClass_C]
+[2016.08.14-03.33.27:550][338]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.FemaleWorkerClass_C_52 IsPendingKill
+[2016.08.14-03.33.29:039][416]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-2963.568 Y=-2562.968 Z=88.000] for [MaleWorkerClass_C]
+[2016.08.14-03.33.29:040][416]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_69 IsPendingKill
+[2016.08.14-03.33.31:050][519]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1563.047 Y=-767.359 Z=18.813] for [MaleWorkerClass_C]
+[2016.08.14-03.33.31:050][519]LogSpawn:Warning: SpawnActor failed because the spawned actor /Game/Maps/UEDPIE_0_UptimeLevel.UptimeLevel:PersistentLevel.MaleWorkerClass_C_73 IsPendingKill
+[2016.08.14-03.35.15:793][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/HUD" FILE="C:/Users/Risukun/Documents/GitHub/Uptime/Content/UI/HUD/HUD.uasset" SILENT=true
+[2016.08.14-03.35.16:233][768]LogSavePackage: Save=428.85ms
+[2016.08.14-03.35.16:233][768]LogSavePackage: Moving 'C:/Users/Risukun/Documents/GitHub/Uptime/Saved/HUD839930D44F338C619E7E60A8B02CCF46.tmp' to 'C:/Users/Risukun/Documents/GitHub/Uptime/Content/UI/HUD/HUD.uasset'
+[2016.08.14-03.35.16:238][768]LogSavePackage: Total save time: 443.28ms
+[2016.08.14-03.35.16:238][768]LogSavePackage:Display: Finished SavePackage C:/Users/Risukun/Documents/GitHub/Uptime/Content/UI/HUD/HUD.uasset
+[2016.08.14-03.35.17:992][847]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.14-03.35.18:720][848]Cmd: QUIT_EDITOR
+[2016.08.14-03.35.19:278][848]LogExit: Preparing to exit.
+[2016.08.14-03.35.20:521][848]LogExit: Editor shut down
+[2016.08.14-03.35.20:524][848]LogExit: Transaction tracking system shut down
+[2016.08.14-03.35.22:317][848]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.14-03.35.22:318][848]LogExit: Object subsystem successfully closed.
+[2016.08.14-03.35.22:544][848]LogD3D11RHI: Shutdown
+[2016.08.14-03.35.22:544][848]LogD3D11RHI: CleanupD3DDevice
+[2016.08.14-03.35.22:692][848]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.14-03.35.22:797][848]LogDerivedDataCache: Shutdown
+[2016.08.14-03.35.23:485][848]LogModuleManager: Shutting down and abandoning module SequencerWidgets (207)
+[2016.08.14-03.35.23:498][848]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.08.14-03.35.23:498][848]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2016.08.14-03.35.23:512][848]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.08.14-03.35.23:512][848]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.08.14-03.35.23:512][848]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.08.14-03.35.23:512][848]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.08.14-03.35.23:512][848]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.08.14-03.35.23:512][848]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.08.14-03.35.23:549][848]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.08.14-03.35.23:550][848]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.08.14-03.35.23:550][848]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.08.14-03.35.23:550][848]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.08.14-03.35.23:566][848]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.08.14-03.35.23:578][848]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.08.14-03.35.23:597][848]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.08.14-03.35.23:598][848]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.08.14-03.35.23:641][848]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.08.14-03.35.23:666][848]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.08.14-03.35.23:690][848]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.08.14-03.35.23:690][848]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.08.14-03.35.23:708][848]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.08.14-03.35.23:709][848]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.08.14-03.35.23:899][848]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.08.14-03.35.23:899][848]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.08.14-03.35.23:900][848]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.08.14-03.35.23:900][848]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.08.14-03.35.23:909][848]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.08.14-03.35.23:917][848]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.08.14-03.35.23:932][848]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.08.14-03.35.23:943][848]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.08.14-03.35.23:954][848]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.08.14-03.35.23:965][848]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.08.14-03.35.23:965][848]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.08.14-03.35.23:978][848]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.08.14-03.35.23:987][848]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.08.14-03.35.23:987][848]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.08.14-03.35.23:992][848]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.08.14-03.35.24:002][848]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.08.14-03.35.24:003][848]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.08.14-03.35.24:003][848]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.08.14-03.35.24:018][848]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.08.14-03.35.24:018][848]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.08.14-03.35.24:054][848]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.08.14-03.35.24:078][848]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.08.14-03.35.24:092][848]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.08.14-03.35.24:102][848]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.08.14-03.35.24:102][848]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.08.14-03.35.24:159][848]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.08.14-03.35.24:167][848]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.08.14-03.35.24:195][848]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.08.14-03.35.24:212][848]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.08.14-03.35.24:212][848]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.08.14-03.35.24:227][848]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.08.14-03.35.24:232][848]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.08.14-03.35.24:267][848]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.08.14-03.35.24:274][848]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.08.14-03.35.24:274][848]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.08.14-03.35.24:290][848]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.08.14-03.35.24:301][848]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.08.14-03.35.24:315][848]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.08.14-03.35.24:320][848]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.08.14-03.35.24:333][848]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.08.14-03.35.24:349][848]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.08.14-03.35.24:361][848]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.08.14-03.35.24:361][848]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.08.14-03.35.24:361][848]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.08.14-03.35.24:616][848]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.08.14-03.35.24:666][848]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.08.14-03.35.24:695][848]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.08.14-03.35.24:695][848]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.08.14-03.35.24:695][848]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.08.14-03.35.24:714][848]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.08.14-03.35.24:723][848]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.08.14-03.35.24:736][848]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.08.14-03.35.24:747][848]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.08.14-03.35.24:747][848]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.08.14-03.35.24:756][848]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.08.14-03.35.24:768][848]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.08.14-03.35.24:777][848]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.08.14-03.35.24:792][848]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.08.14-03.35.24:792][848]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.08.14-03.35.24:797][848]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.08.14-03.35.24:798][848]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.08.14-03.35.24:810][848]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.08.14-03.35.24:824][848]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.08.14-03.35.24:824][848]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.08.14-03.35.24:827][848]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.08.14-03.35.24:843][848]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.08.14-03.35.25:246][848]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.08.14-03.35.25:249][848]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.08.14-03.35.25:274][848]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.08.14-03.35.25:375][848]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.08.14-03.35.25:375][848]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.08.14-03.35.25:403][848]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.08.14-03.35.25:409][848]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.08.14-03.35.25:409][848]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.08.14-03.35.25:421][848]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.08.14-03.35.25:421][848]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.08.14-03.35.25:421][848]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.08.14-03.35.25:421][848]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.08.14-03.35.25:421][848]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.08.14-03.35.25:421][848]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.08.14-03.35.25:435][848]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.08.14-03.35.25:451][848]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.08.14-03.35.25:451][848]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.08.14-03.35.25:466][848]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.14-03.35.25:466][848]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.14-03.35.25:466][848]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.08.14-03.35.25:466][848]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.08.14-03.35.25:493][848]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.08.14-03.35.25:493][848]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.08.14-03.35.25:493][848]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.08.14-03.35.25:528][848]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.08.14-03.35.25:528][848]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.14-03.35.25:545][848]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.14-03.35.25:565][848]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.08.14-03.35.25:565][848]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.08.14-03.35.25:565][848]LogDerivedDataCache: Shutdown
+[2016.08.14-03.35.25:565][848]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.14-03.35.25:583][848]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.14-03.35.25:583][848]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.14-03.35.25:593][848]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.14-03.35.25:593][848]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.14-03.35.25:593][848]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.14-03.35.25:605][848]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.14-03.35.25:605][848]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.14-03.35.25:605][848]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.14-03.35.25:605][848]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.14-03.35.25:605][848]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.14-03.35.25:613][848]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.14-03.35.25:626][848]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.14-03.35.25:627][848]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.14-03.35.27:634][848]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.14-03.35.27:677][848]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.14-03.35.27:693][848]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.14-03.35.27:694][848]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.14-03.35.27:695][848]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.14-03.35.27:695][848]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.14-03.35.27:695][848]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.14-03.35.27:713][848]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.14-03.35.27:738][848]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.14-03.35.27:738][848]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.14-03.35.27:738][848]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.14-03.35.27:738][848]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.14-03.35.27:738][848]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.14-03.35.27:738][848]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.14-03.35.27:757][848]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.14-03.35.27:757][848]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.14-03.35.27:771][848]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.14-03.35.27:791][848]LogExit: Exiting.
+[2016.08.14-03.35.27:806][848]Log file closed, 08/14/16 13:35:27

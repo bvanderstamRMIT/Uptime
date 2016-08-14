@@ -1,8 +1,8 @@
 [CookSettings]
 VersionedIniParams=Engine:Core.System:Paths:../../../Engine/Content
-VersionedIniParams=Engine:Core.System:Paths:D:/GitHub/TeamMIA/Uptime/Content
+VersionedIniParams=Engine:Core.System:Paths:../../../../../../Users/Brenden/Documents/GitHub/Uptime/Content
 VersionedIniParams=Engine:Core.System:Paths:../../../Engine/Plugins/2D/Paper2D/Content
-VersionedIniParams=Engine:Core.System:CutdownPaths:D:/GitHub/TeamMIA/Uptime/CutdownPackages
+VersionedIniParams=Engine:Core.System:CutdownPaths:../../../../../../Users/Brenden/Documents/GitHub/Uptime/CutdownPackages
 VersionedIniParams=Engine:Core.System:ZeroEngineVersionWarning:True
 VersionedIniParams=Engine:Core.System:UseStrictEngineVersioning:True
 VersionedIniParams=Engine:Core.System:UseVTableConstructors:True
@@ -20,6 +20,23 @@ VersionedIniParams=Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:ANTPa
 VersionedIniParams=Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:JavaPath:(Path=)
 VersionedIniParams=Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKAPILevel:matchndk
 VersionedIniParams=Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKAPILevel:android-19
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:FlipNormalMapGreenChannel:False
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:/Script/Engine.LocalPlayer
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bSubtitlesEnabled:True
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:-log
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:FOVAngle:90.000000
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:GodMode:True
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:UseAxisIndicator:True
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:MatineeCurveDetail:0.1
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:HeightMapExportClassName:TerrainHeightMapExporterTextT3D
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bGroupingActive:true
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bCustomCameraAlignEmitter:true
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:CustomCameraAlignEmitterDistance:100.0
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:false
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:false
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:(LowerBound=(Type="ERangeBoundTypes::Inclusive",Value=5),UpperBound=(Type="ERangeBoundTypes::Inclusive",Value=120))
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:true
+VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:
 VersionedIniParams=Engine:WindowsApplication.Accessibility:StickyKeysHotkey:False
 VersionedIniParams=Engine:WindowsApplication.Accessibility:ToggleKeysHotkey:False
 VersionedIniParams=Engine:WindowsApplication.Accessibility:FilterKeysHotkey:False
@@ -30,7 +47,7 @@ VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceCl
 VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:/Game/Maps/UptimeLevel.UptimeLevel
 VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:/Game/Maps/UptimeLevel.UptimeLevel
 VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:/Engine/Maps/Entry
-VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:/Script/Engine.GameMode
+VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:/Game/StarterContent/Blueprints/UptimeGameMode.UptimeGameMode_C
 VersionedIniParams=Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:
 VersionedIniParams=Engine:URL:Protocol:unreal
 VersionedIniParams=Engine:URL:Name:Player
@@ -1261,22 +1278,6 @@ VersionedIniParams=Engine:TextureStreaming:UseDynamicStreaming:True
 VersionedIniParams=Engine:TextureStreaming:BoostPlayerTextures:3.0
 VersionedIniParams=Engine:TextureStreaming:RangePrefetchDistance:400
 VersionedIniParams=Engine:TextureStreaming:PoolSizeVRAMPercentage:70
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:/Script/Engine.LocalPlayer
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bSubtitlesEnabled:True
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:-log
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:FOVAngle:90.000000
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:GodMode:True
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:UseAxisIndicator:True
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:MatineeCurveDetail:0.1
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:HeightMapExportClassName:TerrainHeightMapExporterTextT3D
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bGroupingActive:true
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bCustomCameraAlignEmitter:true
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:CustomCameraAlignEmitterDistance:100.0
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:false
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:false
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:(LowerBound=(Type="ERangeBoundTypes::Inclusive",Value=5),UpperBound=(Type="ERangeBoundTypes::Inclusive",Value=120))
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:true
-VersionedIniParams=Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:
 VersionedIniParams=Engine:/Script/UnrealEd.UnrealEdEngine:AutoSaveIndex:0
 VersionedIniParams=Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:(ThumbnailTexture=Texture2D'/Engine/Maps/Templates/Thumbnails/Default.Default',Map="/Engine/Maps/Templates/Template_Default")
 VersionedIniParams=Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:/Engine/EditorMaterials/Cross
@@ -1612,20 +1613,20 @@ VersionedIniParams=Engine:DerivedDataBackendGraph:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:DerivedDataBackendGraph:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
 VersionedIniParams=Engine:DerivedDataBackendGraph:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:DerivedDataBackendGraph:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=Pak, Inner=EnginePak, Inner=Local, Inner=Shared)
-VersionedIniParams=Engine:DerivedDataBackendGraph:Boot:(Type=Boot, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+VersionedIniParams=Engine:DerivedDataBackendGraph:Boot:(Type=Boot, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:DerivedDataBackendGraph:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache, EnvPathOverride=UE-LocalDataCachePath)
 VersionedIniParams=Engine:DerivedDataBackendGraph:Shared:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=true, UnusedFileAge=10, FoldersToClean=10, MaxFileChecksPerSec=1, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath)
 VersionedIniParams=Engine:DerivedDataBackendGraph:AltShared:(Type=FileSystem, ReadOnly=true, Clean=false, Flush=false, DeleteUnused=true, UnusedFileAge=23, FoldersToClean=10, MaxFileChecksPerSec=1, Path=?EpicDDC2, EnvPathOverride=UE-SharedDataCachePath2)
-VersionedIniParams=Engine:DerivedDataBackendGraph:Pak:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/DDC.ddp")
+VersionedIniParams=Engine:DerivedDataBackendGraph:Pak:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp")
 VersionedIniParams=Engine:DerivedDataBackendGraph:EnginePak:(Type=ReadPak, Filename=../../../Engine/DerivedDataCache/DDC.ddp)
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=Pak, Inner=EnginePak, Inner=Local, Inner=Seattle)
-VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Boot:(Type=Boot, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Boot:(Type=Boot, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache)
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Seattle:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=true, UnusedFileAge=23, FoldersToClean=10, MaxFileChecksPerSec=1, Path=?EpicSeaDDC, EnvPathOverride=UE-SharedDataCachePath_Seattle)
-VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Pak:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/DDC.ddp")
+VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:Pak:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp")
 VersionedIniParams=Engine:DerivedDataBackendGraph_Fill_Seattle:EnginePak:(Type=ReadPak, Filename=../../../Engine/DerivedDataCache/DDC.ddp)
 VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
@@ -1633,42 +1634,42 @@ VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:AsyncPut:(Type=AsyncP
 VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=Pak, Inner=CompressedPak, Inner=EnginePak, Inner=Local)
 VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:Boot:(Type=Boot, Filename="C:/Users/Brenden/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path="C:/Users/Brenden/AppData/Local/UnrealEngine/Common/DerivedDataCache")
-VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:Pak:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/DDC.ddp")
-VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:CompressedPak:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Compressed.ddp", Compressed=true)
+VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:Pak:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp")
+VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:CompressedPak:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp", Compressed=true)
 VersionedIniParams=Engine:InstalledDerivedDataBackendGraph:EnginePak:(Type=ReadPak, Filename=../../../Engine/DerivedDataCache/Compressed.ddp, Compressed=true)
 VersionedIniParams=Engine:NoShared:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:NoShared:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
 VersionedIniParams=Engine:NoShared:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:NoShared:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=Pak, Inner=Local)
-VersionedIniParams=Engine:NoShared:Boot:(Type=Boot, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+VersionedIniParams=Engine:NoShared:Boot:(Type=Boot, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:NoShared:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache, EnvPathOverride=UE-LocalDataCachePath)
-VersionedIniParams=Engine:NoShared:Pak:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/DDC.ddp")
+VersionedIniParams=Engine:NoShared:Pak:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp")
 VersionedIniParams=Engine:CreatePak:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:CreatePak:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
 VersionedIniParams=Engine:CreatePak:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:CreatePak:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=PakWrite, Inner=PakRead, Inner=Local, Inner=Shared)
-VersionedIniParams=Engine:CreatePak:Boot:(Type=Boot, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+VersionedIniParams=Engine:CreatePak:Boot:(Type=Boot, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:CreatePak:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache)
 VersionedIniParams=Engine:CreatePak:Shared:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath)
 VersionedIniParams=Engine:CreatePak:AltShared:(Type=FileSystem, ReadOnly=true, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC2, EnvPathOverride=UE-SharedDataCachePath2)
-VersionedIniParams=Engine:CreatePak:PakRead:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/DDC.ddp")
-VersionedIniParams=Engine:CreatePak:PakWrite:(Type=WritePak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/DDC.ddp")
+VersionedIniParams=Engine:CreatePak:PakRead:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp")
+VersionedIniParams=Engine:CreatePak:PakWrite:(Type=WritePak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/DDC.ddp")
 VersionedIniParams=Engine:CreateInstalledProjectPak:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:CreateInstalledProjectPak:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
 VersionedIniParams=Engine:CreateInstalledProjectPak:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:CreateInstalledProjectPak:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=EnginePak, Inner=PakWrite, Inner=PakRead, Inner=Local, Inner=Shared)
-VersionedIniParams=Engine:CreateInstalledProjectPak:Boot:(Type=Boot, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+VersionedIniParams=Engine:CreateInstalledProjectPak:Boot:(Type=Boot, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:CreateInstalledProjectPak:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache, EnvPathOverride=UE-LocalDataCachePath)
 VersionedIniParams=Engine:CreateInstalledProjectPak:Shared:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath)
 VersionedIniParams=Engine:CreateInstalledProjectPak:AltShared:(Type=FileSystem, ReadOnly=true, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC2, EnvPathOverride=UE-SharedDataCachePath2)
 VersionedIniParams=Engine:CreateInstalledProjectPak:EnginePak:(Type=ReadPak, Filename=../../../Engine/DerivedDataCache/DDC.ddp)
-VersionedIniParams=Engine:CreateInstalledProjectPak:PakRead:(Type=ReadPak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Compressed.ddp", Compressed=true)
-VersionedIniParams=Engine:CreateInstalledProjectPak:PakWrite:(Type=WritePak, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Compressed.ddp", Compressed=true)
+VersionedIniParams=Engine:CreateInstalledProjectPak:PakRead:(Type=ReadPak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp", Compressed=true)
+VersionedIniParams=Engine:CreateInstalledProjectPak:PakWrite:(Type=WritePak, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Compressed.ddp", Compressed=true)
 VersionedIniParams=Engine:CreateInstalledEnginePak:MinimumDaysToKeepFile:7
 VersionedIniParams=Engine:CreateInstalledEnginePak:Root:(Type=KeyLength, Length=120, Inner=AsyncPut)
 VersionedIniParams=Engine:CreateInstalledEnginePak:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:CreateInstalledEnginePak:Hierarchy:(Type=Hierarchical, Inner=Boot, Inner=PakWrite, Inner=Local, Inner=Shared)
-VersionedIniParams=Engine:CreateInstalledEnginePak:Boot:(Type=Boot, Filename="D:/GitHub/TeamMIA/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+VersionedIniParams=Engine:CreateInstalledEnginePak:Boot:(Type=Boot, Filename="../../../../../../Users/Brenden/Documents/GitHub/Uptime/DerivedDataCache/Boot.ddc", MaxCacheSize=512)
 VersionedIniParams=Engine:CreateInstalledEnginePak:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache, EnvPathOverride=UE-LocalDataCachePath)
 VersionedIniParams=Engine:CreateInstalledEnginePak:Shared:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath)
 VersionedIniParams=Engine:CreateInstalledEnginePak:AltShared:(Type=FileSystem, ReadOnly=true, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC2, EnvPathOverride=UE-SharedDataCachePath2)
@@ -1678,7 +1679,7 @@ VersionedIniParams=Engine:CreateProjectCache:Root:(Type=KeyLength, Length=120, I
 VersionedIniParams=Engine:CreateProjectCache:AsyncPut:(Type=AsyncPut, Inner=Hierarchy)
 VersionedIniParams=Engine:CreateProjectCache:Hierarchy:(Type=Hierarchical, Inner=Local, Inner=Project, Inner=Shared)
 VersionedIniParams=Engine:CreateProjectCache:Local:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../Engine/DerivedDataCache, EnvPathOverride=UE-LocalDataCachePath)
-VersionedIniParams=Engine:CreateProjectCache:Project:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=true, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=D:/GitHub/TeamMIA/Uptime/ProjectDerivedData)
+VersionedIniParams=Engine:CreateProjectCache:Project:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=true, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path=../../../../../../Users/Brenden/Documents/GitHub/Uptime/ProjectDerivedData)
 VersionedIniParams=Engine:CreateProjectCache:Shared:(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath)
 VersionedIniParams=Engine:CreateProjectCache:AltShared:(Type=FileSystem, ReadOnly=true, Clean=false, Flush=false, DeleteUnused=false, UnusedFileAge=23, FoldersToClean=-1, Path=?EpicDDC2, EnvPathOverride=UE-SharedDataCachePath2)
 VersionedIniParams=Engine:/Script/Engine.LocalPlayer:AspectRatioAxisConstraint:AspectRatio_MaintainXFOV
@@ -1982,8 +1983,69 @@ VersionedIniParams=Engine:/Script/HardwareTargeting.HardwareTargetingSettings:De
 VersionedIniParams=Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:Maximum
 VersionedIniParams=Editor:EditorLayouts:NullLayout:( 	"Type": "Layout", 	"Name": "NullLayout", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Horizontal", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [] 		) 	] )
 VersionedIniParams=Editor:EditorLayouts:Persona_MeshEditMode_Layout_v7:( 	"Type": "Layout", 	"Name": "Persona_MeshEditMode_Layout_v7", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.30000001192092896, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "MeshAssetPropertiesTab", 							"Tabs": [ 								( 									"TabId": "MeshAssetPropertiesTab", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.5, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "Viewport", 							"Tabs": [ 								( 									"TabId": "Viewport", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.20000000298023224, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "MorphTargetsTab", 							"Tabs": [ 								( 									"TabId": "MorphTargetsTab", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
-VersionedIniParams=Editor:EditorLayouts:Persona_SkeletonEditMode_Layout_v3:( 	"Type": "Layout", 	"Name": "Persona_SkeletonEditMode_Layout_v3", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.30000001192092896, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "SkeletonTreeView", 							"Tabs": [ 								( 									"TabId": "SkeletonTreeView", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.5, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "Viewport", 							"Tabs": [ 								( 									"TabId": "Viewport", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.20000000298023224, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Inspector", 							"Tabs": [ 								( 									"TabId": "Inspector", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
-VersionedIniParams=Editor:EditorLayouts:Persona_AnimEditMode_Layout_v7:( 	"Type": "Layout", 	"Name": "Persona_AnimEditMode_Layout_v7", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.30000001192092896, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SkeletonTreeView", 									"Tabs": [ 										( 											"TabId": "SkeletonTreeView", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "AnimAssetPropertiesTab", 									"Tabs": [ 										( 											"TabId": "AnimAssetPropertiesTab", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.40000000596046448, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": true, 									"ForegroundTab": "Viewport", 									"Tabs": [ 										( 											"TabId": "Viewport", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "None", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.30000001192092896, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Inspector", 									"Tabs": [ 										( 											"TabId": "Inspector", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SequenceBrowser", 									"Tabs": [ 										( 											"TabId": "SequenceBrowser", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						) 					] 				) 			] 		) 	] )
+VersionedIniParams=Editor:EditorLayouts:Persona_SkeletonEditMode_Layout_v3:( 	"Type": "Layout", 	"Name": "Persona_SkeletonEditMode_Layout_v3", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.30000001192092896, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "SkeletonTreeView", 							"Tabs": [ 								( 									"TabId": "SkeletonTreeView", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.5, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "Viewport", 							"Tabs": [ 								( 									"TabId": "Viewport", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.20000000298023224, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Inspector", 							"Tabs": [ 								( 									"TabId": "Inspector", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				) 			] 		), 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Horizontal", 			"WindowPlacement": "Placement_Specified", 			"WindowPosition_X": 335, 			"WindowPosition_Y": 220, 			"WindowSize_X": 1000, 			"WindowSize_Y": 600, 			"bIsMaximized": false, 			"Nodes": [ 				( 					"SizeCoefficient": 1, 					"Type": "Stack", 					"HideTabWell": false, 					"ForegroundTab": "None", 					"Tabs": [ 						( 							"TabId": "RetargetManager", 							"TabState": "ClosedTab" 						) 					] 				) 			] 		) 	] )
+VersionedIniParams=Editor:EditorLayouts:Persona_AnimEditMode_Layout_v7:( 	"Type": "Layout", 	"Name": "Persona_AnimEditMode_Layout_v7", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.17354121804237366, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SkeletonTreeView", 									"Tabs": [ 										( 											"TabId": "SkeletonTreeView", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "AnimAssetPropertiesTab", 									"Tabs": [ 										( 											"TabId": "AnimAssetPropertiesTab", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.59354525804519653, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 1.1584270000457764, 									"Type": "Stack", 									"HideTabWell": true, 									"ForegroundTab": "Viewport", 									"Tabs": [ 										( 											"TabId": "Viewport", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.84157311916351318, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Document : 0", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.23291371762752533, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Inspector", 									"Tabs": [ 										( 											"TabId": "Inspector", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 1, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SequenceBrowser", 									"Tabs": [ 										( 											"TabId": "SequenceBrowser", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						) 					] 				) 			] 		) 	] )
+VersionedIniParams=Editor:EditorLayouts:Persona_AnimBlueprintEditMode_Layout_v7:( 	"Type": "Layout", 	"Name": "Persona_AnimBlueprintEditMode_Layout_v7", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.25, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": true, 									"ForegroundTab": "Viewport", 									"Tabs": [ 										( 											"TabId": "Viewport", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "AnimBlueprintPreviewEditor", 									"Tabs": [ 										( 											"TabId": "AnimBlueprintPreviewEditor", 											"TabState": "OpenedTab" 										), 										( 											"TabId": "AnimBlueprintParentPlayerEditor", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.75, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.69999998807907104, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Document : 3", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.30000001192092896, 									"Type": "Splitter", 									"Orientation": "Orient_Horizontal", 									"Nodes": [ 										( 											"SizeCoefficient": 0.5, 											"Type": "Stack", 											"HideTabWell": false, 											"ForegroundTab": "MyBlueprint", 											"Tabs": [ 												( 													"TabId": "SequenceBrowser", 													"TabState": "OpenedTab" 												), 												( 													"TabId": "MyBlueprint", 													"TabState": "OpenedTab" 												), 												( 													"TabId": "SkeletonTreeView", 													"TabState": "ClosedTab" 												) 											] 										), 										( 											"SizeCoefficient": 0.5, 											"Type": "Stack", 											"HideTabWell": true, 											"ForegroundTab": "Inspector", 											"Tabs": [ 												( 													"TabId": "Inspector", 													"TabState": "OpenedTab" 												) 											] 										) 									] 								), 								( 									"SizeCoefficient": 0.20000000298023224, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "None", 									"Tabs": [ 										( 											"TabId": "CompilerResults", 											"TabState": "ClosedTab" 										), 										( 											"TabId": "FindResults", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						) 					] 				) 			] 		) 	] )
+VersionedIniParams=Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v3:( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Designer_Layout_v3", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.20000000298023224, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 0.69999998807907104, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "WidgetTemplates", 									"Tabs": [ 										( 											"TabId": "WidgetTemplates", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SlateHierarchy", 									"Tabs": [ 										( 											"TabId": "SlateHierarchy", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.61588543653488159, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "SlatePreview", 							"Tabs": [ 								( 									"TabId": "SlatePreview", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.23411224782466888, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "WidgetDetails", 							"Tabs": [ 								( 									"TabId": "WidgetDetails", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				), 				( 					"SizeCoefficient": 0.30000001192092896, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Animations", 							"Tabs": [ 								( 									"TabId": "Animations", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.85000002384185791, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "Sequencer", 							"Tabs": [ 								( 									"TabId": "Sequencer", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+VersionedIniParams=Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Graph_Layout_v1", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.15000000596046448, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "MyBlueprint", 									"Tabs": [ 										( 											"TabId": "MyBlueprint", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.15000000596046448, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Inspector", 									"Tabs": [ 										( 											"TabId": "Inspector", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.69999998807907104, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.80000001192092896, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Document : 2", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.20000000298023224, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "CompilerResults", 									"Tabs": [ 										( 											"TabId": "CompilerResults", 											"TabState": "OpenedTab" 										), 										( 											"TabId": "FindResults", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "None", 							"Tabs": [ 								( 									"TabId": "PaletteList", 									"TabState": "ClosedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:True
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:(Name="Matinee")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:(Name="CurveEditor")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_PlayReverse", Description="Matinee_PlayReverse_Desc", ExecCommand="Matinee PlayReverse")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Stop", Description="Matinee_Stop_Desc", ExecCommand="Matinee Stop")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_TogglePlayPause", Description="Matinee_TogglePlayPause_Desc", ExecCommand="Matinee TogglePlayPause")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomIn", Description="Matinee_ZoomIn_Desc", ExecCommand="Matinee ZoomIn")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomInAlt", Description="Matinee_ZoomInAlt_Desc", ExecCommand="Matinee ZoomIn")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomOut", Description="Matinee_ZoomOut_Desc", ExecCommand="Matinee ZoomOut")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomOutAlt", Description="Matinee_ZoomOutAlt_Desc", ExecCommand="Matinee ZoomOut")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Undo", Description="Matinee_Undo_Desc", ExecCommand="Matinee Undo")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Redo", Description="Matinee_Redo_Desc", ExecCommand="Matinee Redo")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Copy", Description="Matinee_Copy_Desc", ExecCommand="Matinee Copy")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Cut", Description="Matinee_Cut_Desc", ExecCommand="Matinee Cut")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Paste", Description="Matinee_Paste_Desc", ExecCommand="Matinee Paste")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_DeleteSelection", Description="Matinee_DeleteSelection_Desc", ExecCommand="Matinee DeleteSelection")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MarkInSection", Description="Matinee_MarkInSection_Desc", ExecCommand="Matinee MarkInSection")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MarkOutSection", Description="Matinee_MarkOutSection_Desc", ExecCommand="Matinee MarkOutSection")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_IncrementPosition", Description="Matinee_IncrementPosition_Desc", ExecCommand="Matinee IncrementPosition")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_DecrementPosition", Description="Matinee_DecrementPosition_Desc", ExecCommand="Matinee DecrementPosition")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveToNextKey", Description="Matinee_MoveToNextKey_Desc", ExecCommand="Matinee MoveToNextKey")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveToPrevKey", Description="Matinee_MoveToPrevKey_Desc", ExecCommand="Matinee MoveToPrevKey")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_SplitAnimKey", Description="Matinee_SplitAnimKey_Desc", ExecCommand="Matinee SplitAnimKey")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ToggleSnap", Description="Matinee_ToggleSnap_Desc", ExecCommand="Matinee ToggleSnap")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveActiveUp", Description="Matinee_MoveActiveUp_Desc", ExecCommand="Matinee MoveActiveUp")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveActiveDown", Description="Matinee_MoveActiveDown_Desc", ExecCommand="Matinee MoveActiveDown")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_AddKey", Description="Matinee_AddKey_Desc", ExecCommand="Matinee AddKey")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_DuplicateSelectedKeys", Description="Matinee_DuplicateSelectedKeys_Desc", ExecCommand="Matinee DuplicateSelectedKeys")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_CropAnimationBeginning", Description="Matinee_CropAnimationBeginning_Desc", ExecCommand="Matinee CropAnimationBeginning")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_CropAnimationEnd", Description="Matinee_CropAnimationEnd_Desc", ExecCommand="Matinee CropAnimationEnd")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitSequence", Description="Matinee_ViewFitSequence_Desc", ExecCommand="Matinee ViewFitSequence")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitToSelected", Description="Matinee_ViewFitToSelected_Desc", ExecCommand="Matinee ViewFitToSelected")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitLoop", Description="Matinee_ViewFitLoop_Desc", ExecCommand="Matinee ViewFitLoop")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitLoopSequence", Description="Matinee_ViewFitLoopSequence_Desc", ExecCommand="Matinee ViewFitLoopSequence")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewEndOfTrack", Description="Matinee_ViewEndOfTrack_Desc", ExecCommand="Matinee ViewEndOfTrack")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeAUTO", Description="Matinee_ChangeKeyInterpModeAUTO_Desc", ExecCommand="Matinee ChangeKeyInterpModeAUTO")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeUSER", Description="Matinee_ChangeKeyInterpModeUSER_Desc", ExecCommand="Matinee ChangeKeyInterpModeUSER")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeBREAK", Description="Matinee_ChangeKeyInterpModeBREAK_Desc", ExecCommand="Matinee ChangeKeyInterpModeBREAK")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeLINEAR", Description="Matinee_ChangeKeyInterpModeLINEAR_Desc", ExecCommand="Matinee ChangeKeyInterpModeLINEAR")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeCONSTANT", Description="Matinee_ChangeKeyInterpModeCONSTANT_Desc", ExecCommand="Matinee ChangeKeyInterpModeCONSTANT")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeAUTO", Description="CurveEditor_ChangeInterpModeAUTO_Desc", ExecCommand="CurveEditor ChangeInterpModeAUTO")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeUSER", Description="CurveEditor_ChangeInterpModeUSER_Desc", ExecCommand="CurveEditor ChangeInterpModeUSER")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeBREAK", Description="CurveEditor_ChangeInterpModeBREAK_Desc", ExecCommand="CurveEditor ChangeInterpModeBREAK")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeLINEAR", Description="CurveEditor_ChangeInterpModeLINEAR_Desc", ExecCommand="CurveEditor ChangeInterpModeLINEAR")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeCONSTANT", Description="CurveEditor_ChangeInterpModeCONSTANT_Desc", ExecCommand="CurveEditor ChangeInterpModeCONSTANT")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewHorizontally", Description="CurveEditor_FitViewHorizontally_Desc", ExecCommand="CurveEditor FitViewHorizontally")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewVertically", Description="CurveEditor_FitViewVertically_Desc", ExecCommand="CurveEditor FitViewVertically")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewToAll", Description="CurveEditor_FitViewToAll_Desc", ExecCommand="CurveEditor FitViewToAll")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewToSelected", Description="CurveEditor_FitViewToSelected_Desc", ExecCommand="CurveEditor FitViewToSelected")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:bExpandClassPickerClassList:False
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.Actor", AssetClass="/Script/Engine.Blueprint")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.Pawn", AssetClass="/Script/Engine.Blueprint")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.Character", AssetClass="/Script/Engine.Blueprint")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.PlayerController", AssetClass="/Script/Engine.Blueprint")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.GameMode", AssetClass="/Script/Engine.Blueprint")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
+VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
 VersionedIniParams=Editor:Internationalization:LocalizationPaths:../../../Engine/Content/Localization/Editor
 VersionedIniParams=Editor:Internationalization:LocalizationPaths:../../../Engine/Content/Localization/EditorTutorials
 VersionedIniParams=Editor:Internationalization:LocalizationPaths:../../../Engine/Content/Localization/Keywords
@@ -2089,63 +2151,6 @@ VersionedIniParams=Editor:BlueprintEditor.Favorites:StarterProfile:(NodeName="/S
 VersionedIniParams=Editor:UnrealEd.MeshPaint:MinBrushRadius:1
 VersionedIniParams=Editor:UnrealEd.MeshPaint:MaxBrushRadius:256
 VersionedIniParams=Editor:UnrealEd.HitProxy:HitProxySize:5
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:(Name="Matinee")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:(Name="CurveEditor")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_PlayReverse", Description="Matinee_PlayReverse_Desc", ExecCommand="Matinee PlayReverse")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Stop", Description="Matinee_Stop_Desc", ExecCommand="Matinee Stop")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_TogglePlayPause", Description="Matinee_TogglePlayPause_Desc", ExecCommand="Matinee TogglePlayPause")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomIn", Description="Matinee_ZoomIn_Desc", ExecCommand="Matinee ZoomIn")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomInAlt", Description="Matinee_ZoomInAlt_Desc", ExecCommand="Matinee ZoomIn")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomOut", Description="Matinee_ZoomOut_Desc", ExecCommand="Matinee ZoomOut")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ZoomOutAlt", Description="Matinee_ZoomOutAlt_Desc", ExecCommand="Matinee ZoomOut")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Undo", Description="Matinee_Undo_Desc", ExecCommand="Matinee Undo")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Redo", Description="Matinee_Redo_Desc", ExecCommand="Matinee Redo")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Copy", Description="Matinee_Copy_Desc", ExecCommand="Matinee Copy")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Cut", Description="Matinee_Cut_Desc", ExecCommand="Matinee Cut")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_Paste", Description="Matinee_Paste_Desc", ExecCommand="Matinee Paste")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_DeleteSelection", Description="Matinee_DeleteSelection_Desc", ExecCommand="Matinee DeleteSelection")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MarkInSection", Description="Matinee_MarkInSection_Desc", ExecCommand="Matinee MarkInSection")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MarkOutSection", Description="Matinee_MarkOutSection_Desc", ExecCommand="Matinee MarkOutSection")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_IncrementPosition", Description="Matinee_IncrementPosition_Desc", ExecCommand="Matinee IncrementPosition")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_DecrementPosition", Description="Matinee_DecrementPosition_Desc", ExecCommand="Matinee DecrementPosition")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveToNextKey", Description="Matinee_MoveToNextKey_Desc", ExecCommand="Matinee MoveToNextKey")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveToPrevKey", Description="Matinee_MoveToPrevKey_Desc", ExecCommand="Matinee MoveToPrevKey")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_SplitAnimKey", Description="Matinee_SplitAnimKey_Desc", ExecCommand="Matinee SplitAnimKey")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ToggleSnap", Description="Matinee_ToggleSnap_Desc", ExecCommand="Matinee ToggleSnap")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveActiveUp", Description="Matinee_MoveActiveUp_Desc", ExecCommand="Matinee MoveActiveUp")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_MoveActiveDown", Description="Matinee_MoveActiveDown_Desc", ExecCommand="Matinee MoveActiveDown")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_AddKey", Description="Matinee_AddKey_Desc", ExecCommand="Matinee AddKey")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_DuplicateSelectedKeys", Description="Matinee_DuplicateSelectedKeys_Desc", ExecCommand="Matinee DuplicateSelectedKeys")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_CropAnimationBeginning", Description="Matinee_CropAnimationBeginning_Desc", ExecCommand="Matinee CropAnimationBeginning")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_CropAnimationEnd", Description="Matinee_CropAnimationEnd_Desc", ExecCommand="Matinee CropAnimationEnd")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitSequence", Description="Matinee_ViewFitSequence_Desc", ExecCommand="Matinee ViewFitSequence")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitToSelected", Description="Matinee_ViewFitToSelected_Desc", ExecCommand="Matinee ViewFitToSelected")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitLoop", Description="Matinee_ViewFitLoop_Desc", ExecCommand="Matinee ViewFitLoop")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewFitLoopSequence", Description="Matinee_ViewFitLoopSequence_Desc", ExecCommand="Matinee ViewFitLoopSequence")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ViewEndOfTrack", Description="Matinee_ViewEndOfTrack_Desc", ExecCommand="Matinee ViewEndOfTrack")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeAUTO", Description="Matinee_ChangeKeyInterpModeAUTO_Desc", ExecCommand="Matinee ChangeKeyInterpModeAUTO")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeUSER", Description="Matinee_ChangeKeyInterpModeUSER_Desc", ExecCommand="Matinee ChangeKeyInterpModeUSER")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeBREAK", Description="Matinee_ChangeKeyInterpModeBREAK_Desc", ExecCommand="Matinee ChangeKeyInterpModeBREAK")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeLINEAR", Description="Matinee_ChangeKeyInterpModeLINEAR_Desc", ExecCommand="Matinee ChangeKeyInterpModeLINEAR")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeCONSTANT", Description="Matinee_ChangeKeyInterpModeCONSTANT_Desc", ExecCommand="Matinee ChangeKeyInterpModeCONSTANT")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeAUTO", Description="CurveEditor_ChangeInterpModeAUTO_Desc", ExecCommand="CurveEditor ChangeInterpModeAUTO")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeUSER", Description="CurveEditor_ChangeInterpModeUSER_Desc", ExecCommand="CurveEditor ChangeInterpModeUSER")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeBREAK", Description="CurveEditor_ChangeInterpModeBREAK_Desc", ExecCommand="CurveEditor ChangeInterpModeBREAK")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeLINEAR", Description="CurveEditor_ChangeInterpModeLINEAR_Desc", ExecCommand="CurveEditor ChangeInterpModeLINEAR")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeCONSTANT", Description="CurveEditor_ChangeInterpModeCONSTANT_Desc", ExecCommand="CurveEditor ChangeInterpModeCONSTANT")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewHorizontally", Description="CurveEditor_FitViewHorizontally_Desc", ExecCommand="CurveEditor FitViewHorizontally")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewVertically", Description="CurveEditor_FitViewVertically_Desc", ExecCommand="CurveEditor FitViewVertically")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewToAll", Description="CurveEditor_FitViewToAll_Desc", ExecCommand="CurveEditor FitViewToAll")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:(Parent="CurveEditor", CommandName="CurveEditor_FitViewToSelected", Description="CurveEditor_FitViewToSelected_Desc", ExecCommand="CurveEditor FitViewToSelected")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:bExpandClassPickerClassList:False
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.Actor", AssetClass="/Script/Engine.Blueprint")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.Pawn", AssetClass="/Script/Engine.Blueprint")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.Character", AssetClass="/Script/Engine.Blueprint")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.PlayerController", AssetClass="/Script/Engine.Blueprint")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.GameMode", AssetClass="/Script/Engine.Blueprint")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
-VersionedIniParams=Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
 VersionedIniParams=Editor:TaskBrowser:DefaultServerName:
 VersionedIniParams=Editor:TaskBrowser:DefaultServerPort:80
 VersionedIniParams=Editor:TaskBrowser:DefaultProjectName:UE4
@@ -3252,22 +3257,39 @@ VersionedIniParams=Scalability:EffectsQuality@3:r.MaterialQualityLevel:1
 VersionedIniParams=Scalability:EffectsQuality@3:r.SSS.Scale:1
 VersionedIniParams=Scalability:EffectsQuality@3:r.SSS.SampleSet:2
 VersionedIniParams=Scalability:EffectsQuality@3:r.EmitterSpawnRateScale:1.0
-VersionedIniParams=Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:true
-VersionedIniParams=Input:/Script/Engine.InputSettings:bEnableFOVScaling:true
-VersionedIniParams=Input:/Script/Engine.InputSettings:FOVScale:0.01111
-VersionedIniParams=Input:/Script/Engine.InputSettings:DoubleClickTime:0.2f
+VersionedIniParams=Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:True
+VersionedIniParams=Input:/Script/Engine.InputSettings:bEnableFOVScaling:True
+VersionedIniParams=Input:/Script/Engine.InputSettings:FOVScale:0.011110
+VersionedIniParams=Input:/Script/Engine.InputSettings:DoubleClickTime:0.200000
 VersionedIniParams=Input:/Script/Engine.InputSettings:DefaultTouchInterface:/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
-VersionedIniParams=Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:false
-VersionedIniParams=Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:true
-VersionedIniParams=Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:true
+VersionedIniParams=Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:False
+VersionedIniParams=Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:True
+VersionedIniParams=Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:True
 VersionedIniParams=Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:False
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.050000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_LeftY",AxisProperties=(DeadZone=0.050000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_RightX",AxisProperties=(DeadZone=0.050000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.050000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.000000,Sensitivity=0.100000,Exponent=1.000000,bInvert=False))
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.000000,Sensitivity=0.100000,Exponent=1.000000,bInvert=False))
+VersionedIniParams=Input:/Script/Engine.InputSettings:bUseMouseForTouch:False
+VersionedIniParams=Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:CapturePermanently_IncludingInitialMouseDown
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="MoveUp",Key=Gamepad_LeftY,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="MoveRight",Key=Gamepad_LeftX,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookUp",Key=Gamepad_RightY,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookRight",Key=Gamepad_RightX,Scale=0.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="MoveUp",Key=W,Scale=-1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="MoveUp",Key=S,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="MoveRight",Key=D,Scale=-1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="MoveRight",Key=A,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookUp",Key=Up,Scale=-1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookUp",Key=Down,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookRight",Key=Right,Scale=-1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookRight",Key=Left,Scale=1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookUp",Key=MouseY,Scale=-1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:AxisMappings:(AxisName="LookRight",Key=MouseX,Scale=-1.000000)
+VersionedIniParams=Input:/Script/Engine.InputSettings:ConsoleKey:None
 VersionedIniParams=Input:/Script/Engine.InputSettings:ConsoleKeys:Tilde
-VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.25,Exponent=1.f,Sensitivity=1.f))
-VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_LeftY",AxisProperties=(DeadZone=0.25,Exponent=1.f,Sensitivity=1.f))
-VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_RightX",AxisProperties=(DeadZone=0.25,Exponent=1.f,Sensitivity=1.f))
-VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.25,Exponent=1.f,Sensitivity=1.f))
-VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.f,Exponent=1.f,Sensitivity=0.07f))
-VersionedIniParams=Input:/Script/Engine.InputSettings:AxisConfig:(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.f,Exponent=1.f,Sensitivity=0.07f))
 VersionedIniParams=Input:/Script/Engine.PlayerInput:DebugExecBindings:(Key=Pause,Command="Pause")
 VersionedIniParams=Input:/Script/Engine.PlayerInput:DebugExecBindings:(Key=F11,Command="LevelEditor.ToggleImmersive")
 VersionedIniParams=Input:/Script/Engine.PlayerInput:DebugExecBindings:(Key=F11,Command="MainFrame.ToggleFullscreen",Shift=True)
@@ -3421,7 +3443,28 @@ VersionedIniParams=GameUserSettings:/Script/Engine.GameUserSettings:AudioQuality
 VersionedIniParams=GameUserSettings:/Script/Engine.GameUserSettings:FrameRateLimit:0.000000
 VersionedIniParams=Game:StartupActions:bAddPacks:False
 VersionedIniParams=Game:StartupActions:InsertPack:(PackSource="StarterContent.upack,PackName="StarterContent")
-VersionedIniParams=Game:Internationalization:LocalizationPaths:D:/GitHub/TeamMIA/Uptime/Content/Localization/Game
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:(Path="C:/Users/Brenden/Desktop/Uptime Build")
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeBlueprintAssets:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bBuildHttpChunkInstallData:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataDirectory:(Path=)
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataVersion:
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:PPBC_Development
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:True
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:False
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:True
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:True
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:English
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:en
+VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:en
+VersionedIniParams=Game:Internationalization:LocalizationPaths:../../../../../../Users/Brenden/Documents/GitHub/Uptime/Content/Localization/Game
 VersionedIniParams=Game:DefaultPlayer:Name:Player
 VersionedIniParams=Game:/Script/Engine.GameNetworkManager:MaxIdleTime:+0.0
 VersionedIniParams=Game:/Script/Engine.GameNetworkManager:DefaultMaxTimeMargin:+0.0
@@ -3447,16 +3490,6 @@ VersionedIniParams=Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVer
 VersionedIniParams=Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:
 VersionedIniParams=Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:
 VersionedIniParams=Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:CA8C29D348D1B8F816A4D9958E5BDF1D
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:PPBC_Development
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:False
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:True
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:False
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:False
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:True
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:True
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:English
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:en
-VersionedIniParams=Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:en
 VersionedIniParams=Game:/Script/Engine.HUD:ConsoleMessageCount:4
 VersionedIniParams=Game:/Script/Engine.HUD:ConsoleFontSize:5
 VersionedIniParams=Game:/Script/Engine.HUD:MessageFontOffset:0
